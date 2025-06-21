@@ -1,0 +1,16 @@
+device_id,name,type,category,room_id
+1,Dishwasher,appliance,energy_consumer,1
+2,Primary Furnace,hvac,energy_consumer,5
+3,Secondary Furnace,hvac,energy_consumer,5
+4,Home Office Electronics,electronics,energy_consumer,3
+5,Refrigerator,appliance,energy_consumer,1
+6,Wine Cellar Cooling,appliance,energy_consumer,6
+7,Garage Door Motor,motor,energy_consumer,4
+8,Kitchen Outlet Circuit 1,circuit,energy_consumer,1
+9,Kitchen Outlet Circuit 2,circuit,energy_consumer,1
+10,Kitchen Major Appliances,circuit,energy_consumer,1
+11,Barn Electronics,electronics,energy_consumer,8
+12,Water Well Pump,pump,energy_consumer,7
+13,Microwave Oven,appliance,energy_consumer,1
+14,Living Room Electronics,electronics,energy_consumer,2
+15,Solar Panel System,solar,energy_generator,9
