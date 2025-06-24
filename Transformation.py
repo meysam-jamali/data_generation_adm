@@ -242,92 +242,6 @@ class SmartHomeDBNormalizer:
             print(f"❌ Error loading data: {e}")
             # Create sample data for demonstration
             return self._create_sample_data()
-    
-    # def _create_sample_data(self):
-    #     """Create sample data with realistic device behavior"""
-    #     print("📝 Creating sample data with realistic device behavior...")
-        
-    #     # Time setup
-    #     end_time = datetime.now()
-    #     start_time = end_time - timedelta(days=30)
-    #     timestamps = pd.date_range(start_time, end_time, freq='H')
-    #     n_records = len(timestamps)
-
-    #     np.random.seed(42)
-
-    #     # Weather simulation with logical constraints
-    #     temperature = np.random.uniform(-10, 40, n_records)
-    #     summary_options = ['Clear', 'Cloudy', 'Rainy', 'Snowy']
-    #     summaries = []
-    #     solar_generation = []
-
-    #     for i in range(n_records):
-    #         if temperature[i] > 20 and np.random.rand() > 0.3:
-    #             summaries.append('Clear')
-    #             solar_generation.append(np.random.uniform(2, 5))
-    #         elif temperature[i] > 10:
-    #             summaries.append(np.random.choice(['Cloudy', 'Clear']))
-    #             solar_generation.append(np.random.uniform(0.5, 3))
-    #         elif temperature[i] <= 0:
-    #             summaries.append(np.random.choice(['Snowy', 'Cloudy']))
-    #             solar_generation.append(np.random.uniform(0, 1))
-    #         else:
-    #             summaries.append(np.random.choice(['Rainy', 'Cloudy']))
-    #             solar_generation.append(np.random.uniform(0, 0.5))
-
-    #     # Realistic power usage per device
-    #     data = {
-    #         'time': [int(ts.timestamp()) for ts in timestamps],
-    #         'House overall [kW]': np.zeros(n_records),  # Will compute later
-
-    #         # Energy consumers
-    #         'Dishwasher [kW]': np.random.choice([0, np.random.uniform(1.2, 2.0)], size=n_records, p=[0.8, 0.2]),
-    #         'Furnace 1 [kW]': np.random.choice([0, np.random.uniform(1.5, 3.0)], size=n_records, p=[0.6, 0.4]),
-    #         'Furnace 2 [kW]': np.random.choice([0, np.random.uniform(1.0, 2.5)], size=n_records, p=[0.6, 0.4]),
-    #         'Home office [kW]': np.random.uniform(0.1, 0.3, n_records),
-    #         'Fridge [kW]': np.random.uniform(0.1, 0.2, n_records),
-    #         'Wine cellar [kW]': np.random.uniform(0.2, 0.4, n_records),
-    #         'Garage door [kW]': np.random.choice([0, 0.5], size=n_records, p=[0.95, 0.05]),
-    #         'Kitchen 12 [kW]': np.random.uniform(0.2, 0.6, n_records),
-    #         'Kitchen 14 [kW]': np.random.uniform(0.3, 1.0, n_records),
-    #         'Kitchen 38 [kW]': np.random.choice([0, np.random.uniform(1.5, 3.0)], size=n_records, p=[0.8, 0.2]),  # Oven?
-    #         'Barn [kW]': np.random.uniform(0.1, 0.5, n_records),
-    #         'Well [kW]': np.random.choice([0, 1.2], size=n_records, p=[0.8, 0.2]),
-    #         'Microwave [kW]': np.random.choice([0, np.random.uniform(0.8, 1.5)], size=n_records, p=[0.9, 0.1]),
-    #         'Living room [kW]': np.random.uniform(0.1, 0.4, n_records),
-
-    #         # Solar
-    #         'Solar [kW]': [-g if g > 0 else 0 for g in solar_generation],  # Negative means generation
-
-    #         # Weather
-    #         'temperature': temperature,
-    #         'humidity': np.random.uniform(0.3, 0.9, n_records),
-    #         'pressure': np.random.uniform(980, 1030, n_records),
-    #         'summary': summaries,
-    #         'windSpeed': np.random.uniform(0, 20, n_records),
-    #         'cloudCover': np.random.uniform(0, 1, n_records),
-    #         'precipIntensity': np.random.uniform(0, 10, n_records),
-    #         'precipProbability': np.random.uniform(0, 1, n_records),
-    #         'apparentTemperature': np.random.uniform(-15, 45, n_records),
-    #         'dewPoint': np.random.uniform(-20, 25, n_records),
-    #         'windBearing': np.random.randint(0, 360, n_records),
-    #         'visibility': np.random.uniform(5, 15, n_records)
-    #     }
-
-    #     # Calculate house overall usage as sum of all device usages
-    #     device_columns = [
-    #         'Dishwasher [kW]', 'Furnace 1 [kW]', 'Furnace 2 [kW]',
-    #         'Home office [kW]', 'Fridge [kW]', 'Wine cellar [kW]',
-    #         'Garage door [kW]', 'Kitchen 12 [kW]', 'Kitchen 14 [kW]',
-    #         'Kitchen 38 [kW]', 'Barn [kW]', 'Well [kW]', 'Microwave [kW]',
-    #         'Living room [kW]'
-    #     ]
-    #     data['House overall [kW]'] = pd.DataFrame(data)[device_columns].sum(axis=1)
-
-    #     df = pd.DataFrame(data)
-    #     print(f"✅ Sample data created! Shape: {df.shape}")
-    #     return df
-    
 
     def _create_sample_data(self):
         """Create sample data with realistic device behavior"""
@@ -906,4 +820,4 @@ def execute_specific_queries(db_path='smarthome_normalized.db'):
 
 if __name__ == "__main__":
     main()
-    # execute_specific_queries()
+    execute_specific_queries()
