@@ -1,0 +1,5005 @@
+
+  ex:W1 a ex:Weather ;
+  ex:weatherId 1 ;
+  ex:summary "Rainy" ;
+  ex:temperature 7.49080237694725 ;
+  ex:humidity 0.824313982578672 ;
+  ex:windSpeed 10.896955181690313 .
+
+  ex:W2 a ex:Weather ;
+  ex:weatherId 2 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.593820005455385 ;
+  ex:humidity 0.7312392485392938 ;
+  ex:windSpeed 13.192587327894845 .
+
+  ex:W3 a ex:Weather ;
+  ex:weatherId 3 ;
+  ex:summary "Rainy" ;
+  ex:temperature 3.119890406724053 ;
+  ex:humidity 0.7738872250527901 ;
+  ex:windSpeed 15.014590139986943 .
+
+  ex:W4 a ex:Weather ;
+  ex:weatherId 4 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 6.674172222780436 ;
+  ex:humidity 0.6807749177681509 ;
+  ex:windSpeed 5.648617973730234 .
+
+  ex:W5 a ex:Weather ;
+  ex:weatherId 5 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.41168988591604894 ;
+  ex:humidity 0.7595310342450763 ;
+  ex:windSpeed 7.94762780970633 .
+
+  ex:W6 a ex:Weather ;
+  ex:weatherId 6 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 4.246782213565523 ;
+  ex:humidity 0.6573563696974574 ;
+  ex:windSpeed 1.880722088685327 .
+
+  ex:W7 a ex:Weather ;
+  ex:weatherId 7 ;
+  ex:summary "Clear" ;
+  ex:temperature 12.349630192554331 ;
+  ex:humidity 0.5572862321034918 ;
+  ex:windSpeed 5.528833811667921 .
+
+  ex:W8 a ex:Weather ;
+  ex:weatherId 8 ;
+  ex:summary "Rainy" ;
+  ex:temperature 8.638900372842315 ;
+  ex:humidity 0.895717275529217 ;
+  ex:windSpeed 10.40381046503109 .
+
+  ex:W9 a ex:Weather ;
+  ex:weatherId 9 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 7.9972194343051095 ;
+  ex:humidity 0.7074016131343159 ;
+  ex:windSpeed 7.262014732680209 .
+
+  ex:W10 a ex:Weather ;
+  ex:weatherId 10 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 7.327236865873834 ;
+  ex:humidity 0.5957187620033059 ;
+  ex:windSpeed 0.6676720357276245 .
+
+  ex:W11 a ex:Weather ;
+  ex:weatherId 11 ;
+  ex:summary "Clear" ;
+  ex:temperature 12.367720186661746 ;
+  ex:humidity 0.5698600148546942 ;
+  ex:windSpeed 16.407550148979468 .
+
+  ex:W12 a ex:Weather ;
+  ex:weatherId 12 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 11.84829137724085 ;
+  ex:humidity 0.7946543706037142 ;
+  ex:windSpeed 2.352879763186504 .
+
+  ex:W13 a ex:Weather ;
+  ex:weatherId 13 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 13.606150771755594 ;
+  ex:humidity 0.6559833830654968 ;
+  ex:windSpeed 2.4486779671788206 .
+
+  ex:W14 a ex:Weather ;
+  ex:weatherId 14 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.977710745066666 ;
+  ex:humidity 0.4619936372936419 ;
+  ex:windSpeed 19.941563141633235 .
+
+  ex:W15 a ex:Weather ;
+  ex:weatherId 15 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 7.708330050798322 ;
+  ex:humidity 0.7669374276283965 ;
+  ex:windSpeed 1.8606097292005441 .
+
+  ex:W16 a ex:Weather ;
+  ex:weatherId 16 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 13.684660530243137 ;
+  ex:humidity 0.8219917005331124 ;
+  ex:windSpeed 19.469147799523462 .
+
+  ex:W17 a ex:Weather ;
+  ex:weatherId 17 ;
+  ex:summary "Clear" ;
+  ex:temperature 12.199933155652419 ;
+  ex:humidity 0.46905804549610564 ;
+  ex:windSpeed 18.364159992455505 .
+
+  ex:W18 a ex:Weather ;
+  ex:weatherId 18 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.186408041575643 ;
+  ex:humidity 0.612992778589945 ;
+  ex:windSpeed 19.76131133305548 .
+
+  ex:W19 a ex:Weather ;
+  ex:weatherId 19 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.10722820635305 ;
+  ex:humidity 0.5856253756119277 ;
+  ex:windSpeed 6.28121589985464 .
+
+  ex:W20 a ex:Weather ;
+  ex:weatherId 20 ;
+  ex:summary "Clear" ;
+  ex:temperature 10.934205586865593 ;
+  ex:humidity 0.6409084759058827 ;
+  ex:windSpeed 17.596438279033904 .
+
+  ex:W21 a ex:Weather ;
+  ex:weatherId 21 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.84569549189997 ;
+  ex:humidity 0.4734408711248287 ;
+  ex:windSpeed 2.258864168223471 .
+
+  ex:W22 a ex:Weather ;
+  ex:weatherId 22 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.896547008552975 ;
+  ex:humidity 0.6208690675394899 ;
+  ex:windSpeed 8.402374556954499 .
+
+  ex:W23 a ex:Weather ;
+  ex:weatherId 23 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 6.530815376116708 ;
+  ex:humidity 0.8320541679958069 ;
+  ex:windSpeed 8.710109087963186 .
+
+  ex:W24 a ex:Weather ;
+  ex:weatherId 24 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.9045457782107613 ;
+  ex:humidity 0.8365804592237774 ;
+  ex:windSpeed 5.0794974914404944 .
+
+  ex:W25 a ex:Weather ;
+  ex:weatherId 25 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.57475018303859 ;
+  ex:humidity 0.6419550872160986 ;
+  ex:windSpeed 2.126874525115492 .
+
+  ex:W26 a ex:Weather ;
+  ex:weatherId 26 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 12.140684953733693 ;
+  ex:humidity 0.6263187513484153 ;
+  ex:windSpeed 13.105648193833163 .
+
+  ex:W27 a ex:Weather ;
+  ex:weatherId 27 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.043939615080795 ;
+  ex:humidity 0.6519818170385604 ;
+  ex:windSpeed 17.327730285026842 .
+
+  ex:W28 a ex:Weather ;
+  ex:weatherId 28 ;
+  ex:summary "Rainy" ;
+  ex:temperature 8.468029614127392 ;
+  ex:humidity 0.9252819549825868 ;
+  ex:windSpeed 8.166126855189022 .
+
+  ex:W29 a ex:Weather ;
+  ex:weatherId 29 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.11044234247204798 ;
+  ex:humidity 0.9112767977484829 ;
+  ex:windSpeed 1.1818778015650655 .
+
+  ex:W30 a ex:Weather ;
+  ex:weatherId 30 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 14.580143360819747 ;
+  ex:humidity 0.8404319531565131 ;
+  ex:windSpeed 3.3816214071198503 .
+
+  ex:W31 a ex:Weather ;
+  ex:weatherId 31 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.52601757026698 ;
+  ex:humidity 0.5640592043457489 ;
+  ex:windSpeed 4.534607658470213 .
+
+  ex:W32 a ex:Weather ;
+  ex:weatherId 32 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.26206851751187 ;
+  ex:humidity 0.4938698913778542 ;
+  ex:windSpeed 8.25522258532052 .
+
+  ex:W33 a ex:Weather ;
+  ex:weatherId 33 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 1.9082023298082262 ;
+  ex:humidity 0.8039432411532277 ;
+  ex:windSpeed 0.5435003218168832 .
+
+  ex:W34 a ex:Weather ;
+  ex:weatherId 34 ;
+  ex:summary "Clear" ;
+  ex:temperature 11.825955754154542 ;
+  ex:humidity 0.5034653544935273 ;
+  ex:windSpeed 14.153766526612374 .
+
+  ex:W35 a ex:Weather ;
+  ex:weatherId 35 ;
+  ex:summary "Rainy" ;
+  ex:temperature 9.444298503238986 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.635973865212552 .
+
+  ex:W36 a ex:Weather ;
+  ex:weatherId 36 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.97827648532168 ;
+  ex:humidity 0.8429984976043535 ;
+  ex:windSpeed 12.701782118194377 .
+
+  ex:W37 a ex:Weather ;
+  ex:weatherId 37 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.41934359909122 ;
+  ex:humidity 0.7457829548649921 ;
+  ex:windSpeed 5.266315675064002 .
+
+  ex:W38 a ex:Weather ;
+  ex:weatherId 38 ;
+  ex:summary "Clear" ;
+  ex:temperature 14.213257793715748 ;
+  ex:humidity 0.6554081784202601 ;
+  ex:windSpeed 5.676568940470405 .
+
+  ex:W39 a ex:Weather ;
+  ex:weatherId 39 ;
+  ex:summary "Rainy" ;
+  ex:temperature 2.157828539866089 ;
+  ex:humidity 0.9088241071359855 ;
+  ex:windSpeed 11.976165927669829 .
+
+  ex:W40 a ex:Weather ;
+  ex:weatherId 40 ;
+  ex:summary "Rainy" ;
+  ex:temperature 9.507404463642235 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.808116866991294 .
+
+  ex:W41 a ex:Weather ;
+  ex:weatherId 41 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.15132947852186 ;
+  ex:humidity 0.8881306292557193 ;
+  ex:windSpeed 5.705806767146329 .
+
+  ex:W42 a ex:Weather ;
+  ex:weatherId 42 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 10.796821826033462 ;
+  ex:humidity 0.7856177248687224 ;
+  ex:windSpeed 13.17650140280141 .
+
+  ex:W43 a ex:Weather ;
+  ex:weatherId 43 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 1.5395981965758598 ;
+  ex:humidity 0.7763592570798612 ;
+  ex:windSpeed 10.504795150403204 .
+
+  ex:W44 a ex:Weather ;
+  ex:weatherId 44 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.16240759128834 ;
+  ex:humidity 0.9758640630071977 ;
+  ex:windSpeed 0.5028391655454545 .
+
+  ex:W45 a ex:Weather ;
+  ex:weatherId 45 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 9.130691409658205 ;
+  ex:humidity 0.7449676746690901 ;
+  ex:windSpeed 2.7504754963403077 .
+
+  ex:W46 a ex:Weather ;
+  ex:weatherId 46 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.851179969799556 ;
+  ex:humidity 0.7747599026040286 ;
+  ex:windSpeed 8.904922245695763 .
+
+  ex:W47 a ex:Weather ;
+  ex:weatherId 47 ;
+  ex:summary "Rainy" ;
+  ex:temperature 2.441759094013467 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.683688936309713 .
+
+  ex:W48 a ex:Weather ;
+  ex:weatherId 48 ;
+  ex:summary "Rainy" ;
+  ex:temperature 2.201038490553535 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.457942656218098 .
+
+  ex:W49 a ex:Weather ;
+  ex:weatherId 49 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.010407539906316376 ;
+  ex:humidity 0.8210210170812746 ;
+  ex:windSpeed 0.05842065242724015 .
+
+  ex:W50 a ex:Weather ;
+  ex:weatherId 50 ;
+  ex:summary "Clear" ;
+  ex:temperature 10.681788387508838 ;
+  ex:humidity 0.7265617808991435 ;
+  ex:windSpeed 18.14760329425694 .
+
+  ex:W51 a ex:Weather ;
+  ex:weatherId 51 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 2.397307346673656 ;
+  ex:humidity 0.891239754626435 ;
+  ex:windSpeed 12.450393914594905 .
+
+  ex:W52 a ex:Weather ;
+  ex:weatherId 52 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 3.365820843458611 ;
+  ex:humidity 0.889594609063404 ;
+  ex:windSpeed 10.740149767027168 .
+
+  ex:W53 a ex:Weather ;
+  ex:weatherId 53 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 14.060379177903556 ;
+  ex:humidity 0.7752101671592111 ;
+  ex:windSpeed 5.698160430619216 .
+
+  ex:W54 a ex:Weather ;
+  ex:weatherId 54 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 5.078308278686894 ;
+  ex:humidity 0.8969296021167862 ;
+  ex:windSpeed 0.8877554434170887 .
+
+  ex:W55 a ex:Weather ;
+  ex:weatherId 55 ;
+  ex:summary "Rainy" ;
+  ex:temperature 9.94497011784771 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.631989292088617 .
+
+  ex:W56 a ex:Weather ;
+  ex:weatherId 56 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.95480970097884 ;
+  ex:humidity 0.947815810723769 ;
+  ex:windSpeed 0.8970713604713731 .
+
+  ex:W57 a ex:Weather ;
+  ex:weatherId 57 ;
+  ex:summary "Clear" ;
+  ex:temperature 10.05358046457723 ;
+  ex:humidity 0.859216897230823 ;
+  ex:windSpeed 3.304078786757003 .
+
+  ex:W58 a ex:Weather ;
+  ex:weatherId 58 ;
+  ex:summary "Rainy" ;
+  ex:temperature 6.90142496053366 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.163465083823384 .
+
+  ex:W59 a ex:Weather ;
+  ex:weatherId 59 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 2.897897441824462 ;
+  ex:humidity 0.8794210701090048 ;
+  ex:windSpeed 14.427869022125765 .
+
+  ex:W60 a ex:Weather ;
+  ex:weatherId 60 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 11.05786178142656 ;
+  ex:humidity 0.7960408751749872 ;
+  ex:windSpeed 0.8111747508936284 .
+
+  ex:W61 a ex:Weather ;
+  ex:weatherId 61 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.23239230657435 ;
+  ex:humidity 0.8774249351596805 ;
+  ex:windSpeed 13.253290261187109 .
+
+  ex:W62 a ex:Weather ;
+  ex:weatherId 62 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.062795127597916 ;
+  ex:humidity 0.9843200667692216 ;
+  ex:windSpeed 8.084794592884183 .
+
+  ex:W63 a ex:Weather ;
+  ex:weatherId 63 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 12.670594215217895 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.92900180249214 .
+
+  ex:W64 a ex:Weather ;
+  ex:weatherId 64 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.966902499691022 ;
+  ex:humidity 0.9950452206957292 ;
+  ex:windSpeed 2.3147521335741073 .
+
+  ex:W65 a ex:Weather ;
+  ex:weatherId 65 ;
+  ex:summary "Rainy" ;
+  ex:temperature 3.7303702079970846 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.599830458528373 .
+
+  ex:W66 a ex:Weather ;
+  ex:weatherId 66 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 6.519178104037695 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.649853988742933 .
+
+  ex:W67 a ex:Weather ;
+  ex:weatherId 67 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 10.24186116598562 ;
+  ex:humidity 0.855776047496696 ;
+  ex:windSpeed 16.16045259813106 .
+
+  ex:W68 a ex:Weather ;
+  ex:weatherId 68 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 1.9235310218284152 ;
+  ex:humidity 0.9754476131869425 ;
+  ex:windSpeed 7.747851713373186 .
+
+  ex:W69 a ex:Weather ;
+  ex:weatherId 69 ;
+  ex:summary "Clear" ;
+  ex:temperature 10.355027010549602 ;
+  ex:humidity 0.7616415814732593 ;
+  ex:windSpeed 1.5522928946288173 .
+
+  ex:W70 a ex:Weather ;
+  ex:weatherId 70 ;
+  ex:summary "Rainy" ;
+  ex:temperature 6.82132702100517 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.684792402747627 .
+
+  ex:W71 a ex:Weather ;
+  ex:weatherId 71 ;
+  ex:summary "Clear" ;
+  ex:temperature 10.828959476551317 ;
+  ex:humidity 0.8242660172572691 ;
+  ex:windSpeed 15.18702051505226 .
+
+  ex:W72 a ex:Weather ;
+  ex:weatherId 72 ;
+  ex:summary "Clear" ;
+  ex:temperature 13.19968092068358 ;
+  ex:humidity 0.9223886654608254 ;
+  ex:windSpeed 0.2461940603215118 .
+
+  ex:W73 a ex:Weather ;
+  ex:weatherId 73 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 10.332717825420286 ;
+  ex:humidity 0.8687260929917973 ;
+  ex:windSpeed 10.233627731630236 .
+
+  ex:W74 a ex:Weather ;
+  ex:weatherId 74 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 1.8620553561179842 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.932888679870924 .
+
+  ex:W75 a ex:Weather ;
+  ex:weatherId 75 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 12.66202914546536 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.717490057902319 .
+
+  ex:W76 a ex:Weather ;
+  ex:weatherId 76 ;
+  ex:summary "Clear" ;
+  ex:temperature 14.007156599455426 ;
+  ex:humidity 0.8543174859883779 ;
+  ex:windSpeed 2.0251982923031786 .
+
+  ex:W77 a ex:Weather ;
+  ex:weatherId 77 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.741728485302346 ;
+  ex:humidity 0.8398533812433506 ;
+  ex:windSpeed 16.834467234893523 .
+
+  ex:W78 a ex:Weather ;
+  ex:weatherId 78 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.018568975350256 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.44050512993182 .
+
+  ex:W79 a ex:Weather ;
+  ex:weatherId 79 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.971083770541586 ;
+  ex:humidity 0.983777302063777 ;
+  ex:windSpeed 10.638254130485267 .
+
+  ex:W80 a ex:Weather ;
+  ex:weatherId 80 ;
+  ex:summary "Rainy" ;
+  ex:temperature 7.445655331234862 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.283004486564536 .
+
+  ex:W81 a ex:Weather ;
+  ex:weatherId 81 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.10123167692437374 ;
+  ex:humidity 0.9945174338766077 ;
+  ex:windSpeed 2.6009556502227738 .
+
+  ex:W82 a ex:Weather ;
+  ex:weatherId 82 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 13.039225190052012 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.882554263315033 .
+
+  ex:W83 a ex:Weather ;
+  ex:weatherId 83 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.36150727231041735 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.031685857397599 .
+
+  ex:W84 a ex:Weather ;
+  ex:weatherId 84 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 14.883410461131245 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.557568960444849 .
+
+  ex:W85 a ex:Weather ;
+  ex:weatherId 85 ;
+  ex:summary "Clear" ;
+  ex:temperature 11.366172066709431 ;
+  ex:humidity 0.7710844201090723 ;
+  ex:windSpeed 4.938148533351711 .
+
+  ex:W86 a ex:Weather ;
+  ex:weatherId 86 ;
+  ex:summary "Clear" ;
+  ex:temperature 12.726652363717907 ;
+  ex:humidity 0.8324459719130559 ;
+  ex:windSpeed 16.53629947592838 .
+
+  ex:W87 a ex:Weather ;
+  ex:weatherId 87 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.460211095048912 ;
+  ex:humidity 0.9837484998037819 ;
+  ex:windSpeed 4.700744296076502 .
+
+  ex:W88 a ex:Weather ;
+  ex:weatherId 88 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.12197575437108 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.99427608311828 .
+
+  ex:W89 a ex:Weather ;
+  ex:weatherId 89 ;
+  ex:summary "Clear" ;
+  ex:temperature 10.052741862103842 ;
+  ex:humidity 0.9856381901469695 ;
+  ex:windSpeed 4.146180063751159 .
+
+  ex:W90 a ex:Weather ;
+  ex:weatherId 90 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.28335130143806 ;
+  ex:humidity 0.9659914324919794 ;
+  ex:windSpeed 6.009787712008647 .
+
+  ex:W91 a ex:Weather ;
+  ex:weatherId 91 ;
+  ex:summary "Rainy" ;
+  ex:temperature 5.615447248817116 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.9596829473166952 .
+
+  ex:W92 a ex:Weather ;
+  ex:weatherId 92 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.872075435088675 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.860290007211953 .
+
+  ex:W93 a ex:Weather ;
+  ex:weatherId 93 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 5.591206835935171 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.917200772540241 .
+
+  ex:W94 a ex:Weather ;
+  ex:weatherId 94 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.30913233057734857 ;
+  ex:humidity 0.9829681488940855 ;
+  ex:windSpeed 0.6892251885 .
+
+  ex:W95 a ex:Weather ;
+  ex:weatherId 95 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.333096380873393 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.092424431971835 .
+
+  ex:W96 a ex:Weather ;
+  ex:weatherId 96 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 1.5069251201225642 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.254233980446784 .
+
+  ex:W97 a ex:Weather ;
+  ex:weatherId 97 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 9.705597485526313 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.514329264398981 .
+
+  ex:W98 a ex:Weather ;
+  ex:weatherId 98 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.72309548321562 ;
+  ex:humidity 0.9224673938390922 ;
+  ex:windSpeed 8.869116727638083 .
+
+  ex:W99 a ex:Weather ;
+  ex:weatherId 99 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 1.408322616990878 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.922458992788822 .
+
+  ex:W100 a ex:Weather ;
+  ex:weatherId 100 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 5.083272981394775 ;
+  ex:humidity 0.9966378545742105 ;
+  ex:windSpeed 4.807647773989676 .
+
+  ex:W101 a ex:Weather ;
+  ex:weatherId 101 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 14.815372355084088 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.414909769055635 .
+
+  ex:W102 a ex:Weather ;
+  ex:weatherId 102 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 14.178219938202371 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.440966768940154 .
+
+  ex:W103 a ex:Weather ;
+  ex:weatherId 103 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.187223109570272 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.66814644318221 .
+
+  ex:W104 a ex:Weather ;
+  ex:weatherId 104 ;
+  ex:summary "Clear" ;
+  ex:temperature 12.23027421731361 ;
+  ex:humidity 0.9742887106944368 ;
+  ex:windSpeed 15.867880286106955 .
+
+  ex:W105 a ex:Weather ;
+  ex:weatherId 105 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 10.030325893743992 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.04635095809627732 .
+
+  ex:W106 a ex:Weather ;
+  ex:weatherId 106 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 1.4188183399985532 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.1133162905913454 .
+
+  ex:W107 a ex:Weather ;
+  ex:weatherId 107 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.5523354374740941 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.000685455442088 .
+
+  ex:W108 a ex:Weather ;
+  ex:weatherId 108 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 6.563053349494639 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.748127282724752 .
+
+  ex:W109 a ex:Weather ;
+  ex:weatherId 109 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 5.730825042565688 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.540813289238216 .
+
+  ex:W110 a ex:Weather ;
+  ex:weatherId 110 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 5.005027210317281 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.634972881803225 .
+
+  ex:W111 a ex:Weather ;
+  ex:weatherId 111 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 7.203812828225258 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.903930257693206 .
+
+  ex:W112 a ex:Weather ;
+  ex:weatherId 112 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.557380075751773 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.222249423322724 .
+
+  ex:W113 a ex:Weather ;
+  ex:weatherId 113 ;
+  ex:summary "Clear" ;
+  ex:temperature 12.457809516380005 ;
+  ex:humidity 0.9811695850436913 ;
+  ex:windSpeed 5.850301821414837 .
+
+  ex:W114 a ex:Weather ;
+  ex:weatherId 114 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 3.8876006798974605 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.844614926878958 .
+
+  ex:W115 a ex:Weather ;
+  ex:weatherId 115 ;
+  ex:summary "Clear" ;
+  ex:temperature 12.748598029964132 ;
+  ex:humidity 0.9365738552438293 ;
+  ex:windSpeed 0.6733835642774544 .
+
+  ex:W116 a ex:Weather ;
+  ex:weatherId 116 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.39073734228318 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.19222857399593 .
+
+  ex:W117 a ex:Weather ;
+  ex:weatherId 117 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.903723895374073 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.428639832851864 .
+
+  ex:W118 a ex:Weather ;
+  ex:weatherId 118 ;
+  ex:summary "Clear" ;
+  ex:temperature 14.880852859982308 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.525569206764054 .
+
+  ex:W119 a ex:Weather ;
+  ex:weatherId 119 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.252968293558503 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.265778619076293 .
+
+  ex:W120 a ex:Weather ;
+  ex:weatherId 120 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 13.769998015307328 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.1724828905275593 .
+
+  ex:W121 a ex:Weather ;
+  ex:weatherId 121 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 3.128740853421721 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.048932748673378 .
+
+  ex:W122 a ex:Weather ;
+  ex:weatherId 122 ;
+  ex:summary "Snowy" ;
+  ex:temperature 1.877465801625835 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.869715259518694 .
+
+  ex:W123 a ex:Weather ;
+  ex:weatherId 123 ;
+  ex:summary "Clear" ;
+  ex:temperature 10.333925148531334 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.339359999272215 .
+
+  ex:W124 a ex:Weather ;
+  ex:weatherId 124 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 12.234414924687044 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.534293198620368 .
+
+  ex:W125 a ex:Weather ;
+  ex:weatherId 125 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 11.320744209881525 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.143996431212447 .
+
+  ex:W126 a ex:Weather ;
+  ex:weatherId 126 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.28786977259511737 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.502801222993362 .
+
+  ex:W127 a ex:Weather ;
+  ex:weatherId 127 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.109211680220145 ;
+  ex:humidity 0.9435625247668042 ;
+  ex:windSpeed 11.292581019945263 .
+
+  ex:W128 a ex:Weather ;
+  ex:weatherId 128 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.3432220366350047 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.084627674973912 .
+
+  ex:W129 a ex:Weather ;
+  ex:weatherId 129 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 6.926086421788016 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.522164628288223 .
+
+  ex:W130 a ex:Weather ;
+  ex:weatherId 130 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 7.970094687947469 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.989324964312615 .
+
+  ex:W131 a ex:Weather ;
+  ex:weatherId 131 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.733607745960953 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.702402398050001 .
+
+  ex:W132 a ex:Weather ;
+  ex:weatherId 132 ;
+  ex:summary "Clear" ;
+  ex:temperature 12.517198314284727 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.219550491702962 .
+
+  ex:W133 a ex:Weather ;
+  ex:weatherId 133 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 10.78754896800125 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.7204600001133126 .
+
+  ex:W134 a ex:Weather ;
+  ex:weatherId 134 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 1.4113749480085969 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.395263533634214 .
+
+  ex:W135 a ex:Weather ;
+  ex:weatherId 135 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.80460482849915 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.924811911257086 .
+
+  ex:W136 a ex:Weather ;
+  ex:weatherId 136 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 11.467340833438666 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.5144853798445244 .
+
+  ex:W137 a ex:Weather ;
+  ex:weatherId 137 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 10.9123357863187 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.363082826020609 .
+
+  ex:W138 a ex:Weather ;
+  ex:weatherId 138 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.408536875425362 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.8601390373387896 .
+
+  ex:W139 a ex:Weather ;
+  ex:weatherId 139 ;
+  ex:summary "Rainy" ;
+  ex:temperature 3.915822695785929 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.9973364227235635 .
+
+  ex:W140 a ex:Weather ;
+  ex:weatherId 140 ;
+  ex:summary "Rainy" ;
+  ex:temperature 7.545181664559517 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.187659341747818 .
+
+  ex:W141 a ex:Weather ;
+  ex:weatherId 141 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 13.660135468327137 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.121317713727304 .
+
+  ex:W142 a ex:Weather ;
+  ex:weatherId 142 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 7.707932419311301 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.952951591840723 .
+
+  ex:W143 a ex:Weather ;
+  ex:weatherId 143 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.289369651778717 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.6303653383275583 .
+
+  ex:W144 a ex:Weather ;
+  ex:weatherId 144 ;
+  ex:summary "Clear" ;
+  ex:temperature 13.857807173838788 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.5276988998291197 .
+
+  ex:W145 a ex:Weather ;
+  ex:weatherId 145 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.54944027054106 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.6347838141892597 .
+
+  ex:W146 a ex:Weather ;
+  ex:weatherId 146 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.35161103040495 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.836074109843651 .
+
+  ex:W147 a ex:Weather ;
+  ex:weatherId 147 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.012295032817168 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.837199177107108 .
+
+  ex:W148 a ex:Weather ;
+  ex:weatherId 148 ;
+  ex:summary "Clear" ;
+  ex:temperature 14.632955105992805 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.260146922835519 .
+
+  ex:W149 a ex:Weather ;
+  ex:weatherId 149 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.528259214839936 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.511601839005197 .
+
+  ex:W150 a ex:Weather ;
+  ex:weatherId 150 ;
+  ex:summary "Clear" ;
+  ex:temperature 11.237333842875472 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.122931298669595 .
+
+  ex:W151 a ex:Weather ;
+  ex:weatherId 151 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.017421355829947 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.202708635961317 .
+
+  ex:W152 a ex:Weather ;
+  ex:weatherId 152 ;
+  ex:summary "Rainy" ;
+  ex:temperature 7.554577723525897 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.432845630920596 .
+
+  ex:W153 a ex:Weather ;
+  ex:weatherId 153 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.529149322154833 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.783175555644861 .
+
+  ex:W154 a ex:Weather ;
+  ex:weatherId 154 ;
+  ex:summary "Snowy" ;
+  ex:temperature 1.9996977432372676 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.53856020654451 .
+
+  ex:W155 a ex:Weather ;
+  ex:weatherId 155 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 7.098103809254413 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.943888780671635 .
+
+  ex:W156 a ex:Weather ;
+  ex:weatherId 156 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.012142938751122 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.128419278288735 .
+
+  ex:W157 a ex:Weather ;
+  ex:weatherId 157 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 1.6656882239051929 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.74680282034047 .
+
+  ex:W158 a ex:Weather ;
+  ex:weatherId 158 ;
+  ex:summary "Rainy" ;
+  ex:temperature 4.2545579004845795 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.80193116475687 .
+
+  ex:W159 a ex:Weather ;
+  ex:weatherId 159 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.792362855891078 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.312843733718115 .
+
+  ex:W160 a ex:Weather ;
+  ex:weatherId 160 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.484964170688205 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.085355296820932 .
+
+  ex:W161 a ex:Weather ;
+  ex:weatherId 161 ;
+  ex:summary "Rainy" ;
+  ex:temperature 8.83061002746754 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.217086890289913 .
+
+  ex:W162 a ex:Weather ;
+  ex:weatherId 162 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 14.11662967757389 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.279231614700205 .
+
+  ex:W163 a ex:Weather ;
+  ex:weatherId 163 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.230212634349446 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.486979580469377 .
+
+  ex:W164 a ex:Weather ;
+  ex:weatherId 164 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.7696152752797 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.544653215078252 .
+
+  ex:W165 a ex:Weather ;
+  ex:weatherId 165 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 1.4552601272838706 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.96472000998546 .
+
+  ex:W166 a ex:Weather ;
+  ex:weatherId 166 ;
+  ex:summary "Snowy" ;
+  ex:temperature 1.6269756128379953 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.179269587545972 .
+
+  ex:W167 a ex:Weather ;
+  ex:weatherId 167 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 7.412842941337818 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.2838009879153436 .
+
+  ex:W168 a ex:Weather ;
+  ex:weatherId 168 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.153874126970926 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.9041185261994045 .
+
+  ex:W169 a ex:Weather ;
+  ex:weatherId 169 ;
+  ex:summary "Rainy" ;
+  ex:temperature 7.525191710618316 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.461780833949323 .
+
+  ex:W170 a ex:Weather ;
+  ex:weatherId 170 ;
+  ex:summary "Rainy" ;
+  ex:temperature 7.559751802445089 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.20335569457491 .
+
+  ex:W171 a ex:Weather ;
+  ex:weatherId 171 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.12708770189472 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.688417160068353 .
+
+  ex:W172 a ex:Weather ;
+  ex:weatherId 172 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 5.073643477462775 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.1615856471166 .
+
+  ex:W173 a ex:Weather ;
+  ex:weatherId 173 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 1.126065513636747 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.91614878612306 .
+
+  ex:W174 a ex:Weather ;
+  ex:weatherId 174 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 14.920897585308467 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.0761404928321556 .
+
+  ex:W175 a ex:Weather ;
+  ex:weatherId 175 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 8.004457857440496 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.630986805517086 .
+
+  ex:W176 a ex:Weather ;
+  ex:weatherId 176 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.371982563789206 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.6523589668313301 .
+
+  ex:W177 a ex:Weather ;
+  ex:weatherId 177 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.04218498053468 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.84884578749558 .
+
+  ex:W178 a ex:Weather ;
+  ex:weatherId 178 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.8631982390115223 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.044728069244762 .
+
+  ex:W179 a ex:Weather ;
+  ex:weatherId 179 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.859295922386007 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.035443460781865 .
+
+  ex:W180 a ex:Weather ;
+  ex:weatherId 180 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 13.90822246213295 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.49780433631825 .
+
+  ex:W181 a ex:Weather ;
+  ex:weatherId 181 ;
+  ex:summary "Clear" ;
+  ex:temperature 12.58797276270525 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.266492840660934 .
+
+  ex:W182 a ex:Weather ;
+  ex:weatherId 182 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.916627500587413 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.793193114175807 .
+
+  ex:W183 a ex:Weather ;
+  ex:weatherId 183 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.02316020981978 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.018835249460935 .
+
+  ex:W184 a ex:Weather ;
+  ex:weatherId 184 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 9.11313505571426 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.87604961619231 .
+
+  ex:W185 a ex:Weather ;
+  ex:weatherId 185 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 3.3935980779113106 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.58993141456253 .
+
+  ex:W186 a ex:Weather ;
+  ex:weatherId 186 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 7.067044560521056 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.534984483363933 .
+
+  ex:W187 a ex:Weather ;
+  ex:weatherId 187 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 7.206901904105365 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.265873065455937 .
+
+  ex:W188 a ex:Weather ;
+  ex:weatherId 188 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 13.963234280394904 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.934010411135366 .
+
+  ex:W189 a ex:Weather ;
+  ex:weatherId 189 ;
+  ex:summary "Rainy" ;
+  ex:temperature 8.224134417443725 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.462565477651083 .
+
+  ex:W190 a ex:Weather ;
+  ex:weatherId 190 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 3.252338786897826 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.65468761346844 .
+
+  ex:W191 a ex:Weather ;
+  ex:weatherId 191 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.81063654270767 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.812711856051731 .
+
+  ex:W192 a ex:Weather ;
+  ex:weatherId 192 ;
+  ex:summary "Clear" ;
+  ex:temperature 12.268303918715798 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.192620233138038 .
+
+  ex:W193 a ex:Weather ;
+  ex:weatherId 193 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.533229718515855 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.5071295158477125 .
+
+  ex:W194 a ex:Weather ;
+  ex:weatherId 194 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.5273394899450401 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.24965768951106 .
+
+  ex:W195 a ex:Weather ;
+  ex:weatherId 195 ;
+  ex:summary "Rainy" ;
+  ex:temperature 3.0083378220705637 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.076594011384373 .
+
+  ex:W196 a ex:Weather ;
+  ex:weatherId 196 ;
+  ex:summary "Rainy" ;
+  ex:temperature 7.859788979577182 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.568680948379978 .
+
+  ex:W197 a ex:Weather ;
+  ex:weatherId 197 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.766574094222758 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.984172537410245 .
+
+  ex:W198 a ex:Weather ;
+  ex:weatherId 198 ;
+  ex:summary "Rainy" ;
+  ex:temperature 2.677042376012664 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.169793949855947 .
+
+  ex:W199 a ex:Weather ;
+  ex:weatherId 199 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 14.998214989399436 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.009432295216754 .
+
+  ex:W200 a ex:Weather ;
+  ex:weatherId 200 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.37974830361021 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.267866959513791 .
+
+  ex:W201 a ex:Weather ;
+  ex:weatherId 201 ;
+  ex:summary "Rainy" ;
+  ex:temperature 7.557010985515729 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.421105677198288 .
+
+  ex:W202 a ex:Weather ;
+  ex:weatherId 202 ;
+  ex:summary "Rainy" ;
+  ex:temperature 2.5831883030298997 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.133452979654916 .
+
+  ex:W203 a ex:Weather ;
+  ex:weatherId 203 ;
+  ex:summary "Rainy" ;
+  ex:temperature 4.144552980161129 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.4876566248264864 .
+
+  ex:W204 a ex:Weather ;
+  ex:weatherId 204 ;
+  ex:summary "Clear" ;
+  ex:temperature 12.362564809157917 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.865561818728047 .
+
+  ex:W205 a ex:Weather ;
+  ex:weatherId 205 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.4436948406060326 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.685811037873517 .
+
+  ex:W206 a ex:Weather ;
+  ex:weatherId 206 ;
+  ex:summary "Rainy" ;
+  ex:temperature 6.1555447954209885 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.3698471753680117 .
+
+  ex:W207 a ex:Weather ;
+  ex:weatherId 207 ;
+  ex:summary "Clear" ;
+  ex:temperature 11.218759430707726 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.049342333756936 .
+
+  ex:W208 a ex:Weather ;
+  ex:weatherId 208 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 11.799117942752721 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.500583721704114 .
+
+  ex:W209 a ex:Weather ;
+  ex:weatherId 209 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.10274511347238 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.2572632171026 .
+
+  ex:W210 a ex:Weather ;
+  ex:weatherId 210 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.10089335038724 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.95020146280824 .
+
+  ex:W211 a ex:Weather ;
+  ex:weatherId 211 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 0.29089331335763857 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.82855360999085 .
+
+  ex:W212 a ex:Weather ;
+  ex:weatherId 212 ;
+  ex:summary "Rainy" ;
+  ex:temperature 8.749498440474582 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.11009533231753 .
+
+  ex:W213 a ex:Weather ;
+  ex:weatherId 213 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 10.94892613798223 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.550818910070682 .
+
+  ex:W214 a ex:Weather ;
+  ex:weatherId 214 ;
+  ex:summary "Rainy" ;
+  ex:temperature 7.930855646425403 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.697236459177603 .
+
+  ex:W215 a ex:Weather ;
+  ex:weatherId 215 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 13.952837429869266 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.022053912486566 .
+
+  ex:W216 a ex:Weather ;
+  ex:weatherId 216 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.53175250322989 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.825448964837033 .
+
+  ex:W217 a ex:Weather ;
+  ex:weatherId 217 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 1.3247195570373171 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.062427248161516 .
+
+  ex:W218 a ex:Weather ;
+  ex:weatherId 218 ;
+  ex:summary "Rainy" ;
+  ex:temperature 4.182615821570284 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.643664601851796 .
+
+  ex:W219 a ex:Weather ;
+  ex:weatherId 219 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 1.5172665621732784 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.335798782563163 .
+
+  ex:W220 a ex:Weather ;
+  ex:weatherId 220 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 2.7765434529882027 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.878838271444617 .
+
+  ex:W221 a ex:Weather ;
+  ex:weatherId 221 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 13.930029324541579 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.607494993815866 .
+
+  ex:W222 a ex:Weather ;
+  ex:weatherId 222 ;
+  ex:summary "Rainy" ;
+  ex:temperature 9.479232805257446 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.832638176547091 .
+
+  ex:W223 a ex:Weather ;
+  ex:weatherId 223 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 12.038707910819204 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.441120775045068 .
+
+  ex:W224 a ex:Weather ;
+  ex:weatherId 224 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 3.378701261443291 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.4816335062285853 .
+
+  ex:W225 a ex:Weather ;
+  ex:weatherId 225 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.636093629703304 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.245163015236892 .
+
+  ex:W226 a ex:Weather ;
+  ex:weatherId 226 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.215575360654515 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.13364258447775557 .
+
+  ex:W227 a ex:Weather ;
+  ex:weatherId 227 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.60199026620311 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.471096020953638 .
+
+  ex:W228 a ex:Weather ;
+  ex:weatherId 228 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.62290788112586 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.7122702573129605 .
+
+  ex:W229 a ex:Weather ;
+  ex:weatherId 229 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.139553654323876 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.793030225870165 .
+
+  ex:W230 a ex:Weather ;
+  ex:weatherId 230 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.537552962944076 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.344980416974513 .
+
+  ex:W231 a ex:Weather ;
+  ex:weatherId 231 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.690420387127546 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.856499498126325 .
+
+  ex:W232 a ex:Weather ;
+  ex:weatherId 232 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.48083518214867 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.6860262922270075 .
+
+  ex:W233 a ex:Weather ;
+  ex:weatherId 233 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.25069432266296 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.345046227336425 .
+
+  ex:W234 a ex:Weather ;
+  ex:weatherId 234 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.048738886880415 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.925245730497537 .
+
+  ex:W235 a ex:Weather ;
+  ex:weatherId 235 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.233548842313322 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.41351050764651 .
+
+  ex:W236 a ex:Weather ;
+  ex:weatherId 236 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.948247336469095 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.079881846796024 .
+
+  ex:W237 a ex:Weather ;
+  ex:weatherId 237 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.38486461898762 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.23042586650633 .
+
+  ex:W238 a ex:Weather ;
+  ex:weatherId 238 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.441583311663564 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.31626392465924136 .
+
+  ex:W239 a ex:Weather ;
+  ex:weatherId 239 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.664328230996023 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.306887627651053 .
+
+  ex:W240 a ex:Weather ;
+  ex:weatherId 240 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.582046382889793 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.444007836504385 .
+
+  ex:W241 a ex:Weather ;
+  ex:weatherId 241 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.738405761748474 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.666095248498612 .
+
+  ex:W242 a ex:Weather ;
+  ex:weatherId 242 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.15484531900875 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.27222093088649 .
+
+  ex:W243 a ex:Weather ;
+  ex:weatherId 243 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.575452519025788 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.829914818474458 .
+
+  ex:W244 a ex:Weather ;
+  ex:weatherId 244 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 27.151104445871457 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.672135780580863 .
+
+  ex:W245 a ex:Weather ;
+  ex:weatherId 245 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.115496387137743 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.196476707825518 .
+
+  ex:W246 a ex:Weather ;
+  ex:weatherId 246 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.30713639348115 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.226789329982878 .
+
+  ex:W247 a ex:Weather ;
+  ex:weatherId 247 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.75775249080288 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.672862682879167 .
+
+  ex:W248 a ex:Weather ;
+  ex:weatherId 248 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 32.935308492528506 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.387792233339432 .
+
+  ex:W249 a ex:Weather ;
+  ex:weatherId 249 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.93922924732843 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.976908001588779 .
+
+  ex:W250 a ex:Weather ;
+  ex:weatherId 250 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.5199683561132 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.152657159593115 .
+
+  ex:W251 a ex:Weather ;
+  ex:weatherId 251 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.50134325890285 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.2005869903256325 .
+
+  ex:W252 a ex:Weather ;
+  ex:weatherId 252 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.417229463067052 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.22984946596230627 .
+
+  ex:W253 a ex:Weather ;
+  ex:weatherId 253 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.53238968252824 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.237612330982477 .
+
+  ex:W254 a ex:Weather ;
+  ex:weatherId 254 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.35988133008469 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.850626150402334 .
+
+  ex:W255 a ex:Weather ;
+  ex:weatherId 255 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.72494367396976 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.52976180391525 .
+
+  ex:W256 a ex:Weather ;
+  ex:weatherId 256 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.355590028856774 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.15928809490902252 .
+
+  ex:W257 a ex:Weather ;
+  ex:weatherId 257 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.62280203709635 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.067603757314952 .
+
+  ex:W258 a ex:Weather ;
+  ex:weatherId 258 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 21.732085563878414 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.562336580126853 .
+
+  ex:W259 a ex:Weather ;
+  ex:weatherId 259 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.034609246604717 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.72715466122963 .
+
+  ex:W260 a ex:Weather ;
+  ex:weatherId 260 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.092813095275275 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.429975083637357 .
+
+  ex:W261 a ex:Weather ;
+  ex:weatherId 261 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.912774812156886 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.071168868650606 .
+
+  ex:W262 a ex:Weather ;
+  ex:weatherId 262 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.977365330859904 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.977801500836471 .
+
+  ex:W263 a ex:Weather ;
+  ex:weatherId 263 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.300538213330256 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.687530940459425 .
+
+  ex:W264 a ex:Weather ;
+  ex:weatherId 264 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.100036201064746 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.918857777173132 .
+
+  ex:W265 a ex:Weather ;
+  ex:weatherId 265 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.82241298580118 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.438584550313589 .
+
+  ex:W266 a ex:Weather ;
+  ex:weatherId 266 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.79544753252579 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.25944797973925 .
+
+  ex:W267 a ex:Weather ;
+  ex:weatherId 267 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.990742618390314 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.935733640397012 .
+
+  ex:W268 a ex:Weather ;
+  ex:weatherId 268 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.713834921299995 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.284018511436607 .
+
+  ex:W269 a ex:Weather ;
+  ex:weatherId 269 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.17660968247005 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.4299078217553083 .
+
+  ex:W270 a ex:Weather ;
+  ex:weatherId 270 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.33198878943154 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.3683007835186376 .
+
+  ex:W271 a ex:Weather ;
+  ex:weatherId 271 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.25359571339213 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.3386214163500294 .
+
+  ex:W272 a ex:Weather ;
+  ex:weatherId 272 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 25.054407801849585 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.438244077012014 .
+
+  ex:W273 a ex:Weather ;
+  ex:weatherId 273 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.637149593763482 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.077301476738501 .
+
+  ex:W274 a ex:Weather ;
+  ex:weatherId 274 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.337960814167282 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.237294808349919 .
+
+  ex:W275 a ex:Weather ;
+  ex:weatherId 275 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.61098273618603 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.551043303602649 .
+
+  ex:W276 a ex:Weather ;
+  ex:weatherId 276 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.572582307468764 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.44282950945258914 .
+
+  ex:W277 a ex:Weather ;
+  ex:weatherId 277 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.463016985147775 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.914075004637821 .
+
+  ex:W278 a ex:Weather ;
+  ex:weatherId 278 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.139609224869183 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.608711405407433 .
+
+  ex:W279 a ex:Weather ;
+  ex:weatherId 279 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.090891863389267 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.296019449185545 .
+
+  ex:W280 a ex:Weather ;
+  ex:weatherId 280 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.53531273523499 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.028840574513623 .
+
+  ex:W281 a ex:Weather ;
+  ex:weatherId 281 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.212634739104146 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.146178047216818 .
+
+  ex:W282 a ex:Weather ;
+  ex:weatherId 282 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.07915744145025 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.712395284835466 .
+
+  ex:W283 a ex:Weather ;
+  ex:weatherId 283 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.727149639912156 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.63126909881514 .
+
+  ex:W284 a ex:Weather ;
+  ex:weatherId 284 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.24406144636089 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.48341364314052 .
+
+  ex:W285 a ex:Weather ;
+  ex:weatherId 285 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 25.854488866951925 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.211235908186762 .
+
+  ex:W286 a ex:Weather ;
+  ex:weatherId 286 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.181495891280555 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.686888525830174 .
+
+  ex:W287 a ex:Weather ;
+  ex:weatherId 287 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 23.47193724840966 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.617639303724875 .
+
+  ex:W288 a ex:Weather ;
+  ex:weatherId 288 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.724596640335946 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.58520179829075 .
+
+  ex:W289 a ex:Weather ;
+  ex:weatherId 289 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.36220367641681 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.95855767526697 .
+
+  ex:W290 a ex:Weather ;
+  ex:weatherId 290 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.449987623545915 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.630968719300976 .
+
+  ex:W291 a ex:Weather ;
+  ex:weatherId 291 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.525767203336265 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.927737805263895 .
+
+  ex:W292 a ex:Weather ;
+  ex:weatherId 292 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.728884712494455 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.168178717600355 .
+
+  ex:W293 a ex:Weather ;
+  ex:weatherId 293 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 24.016787428082644 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.998898790592795 .
+
+  ex:W294 a ex:Weather ;
+  ex:weatherId 294 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.726417589882413 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.464823127584676 .
+
+  ex:W295 a ex:Weather ;
+  ex:weatherId 295 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.39792724124257 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.07357161468553 .
+
+  ex:W296 a ex:Weather ;
+  ex:weatherId 296 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 22.980054077402606 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.421463810167758 .
+
+  ex:W297 a ex:Weather ;
+  ex:weatherId 297 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.755797774289846 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.170037618327814 .
+
+  ex:W298 a ex:Weather ;
+  ex:weatherId 298 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.290091684072554 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.264717361666737 .
+
+  ex:W299 a ex:Weather ;
+  ex:weatherId 299 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.314002446376264 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.939253194691169 .
+
+  ex:W300 a ex:Weather ;
+  ex:weatherId 300 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 26.741364482731345 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.663262226303328 .
+
+  ex:W301 a ex:Weather ;
+  ex:weatherId 301 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.527739730124466 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.1380902638914 .
+
+  ex:W302 a ex:Weather ;
+  ex:weatherId 302 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.6775832049319 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.7074555816502297 .
+
+  ex:W303 a ex:Weather ;
+  ex:weatherId 303 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.61176700556087 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.372792796468513 .
+
+  ex:W304 a ex:Weather ;
+  ex:weatherId 304 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.270747440334212 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.158548903014013 .
+
+  ex:W305 a ex:Weather ;
+  ex:weatherId 305 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.14610737780096 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.877183768426022 .
+
+  ex:W306 a ex:Weather ;
+  ex:weatherId 306 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.689257428377122 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.66502798558205 .
+
+  ex:W307 a ex:Weather ;
+  ex:weatherId 307 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.34152954776855 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.518354146320608 .
+
+  ex:W308 a ex:Weather ;
+  ex:weatherId 308 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.99564044148539 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.094181507125981 .
+
+  ex:W309 a ex:Weather ;
+  ex:weatherId 309 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.499519741021047 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.535809668144543 .
+
+  ex:W310 a ex:Weather ;
+  ex:weatherId 310 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 26.749072084681487 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.473251297913315 .
+
+  ex:W311 a ex:Weather ;
+  ex:weatherId 311 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.4878053865516 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.344617729060216 .
+
+  ex:W312 a ex:Weather ;
+  ex:weatherId 312 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 26.19280662616436 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.486537837585384 .
+
+  ex:W313 a ex:Weather ;
+  ex:weatherId 313 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.510067276077784 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.021303040998903 .
+
+  ex:W314 a ex:Weather ;
+  ex:weatherId 314 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.414893462871078 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.72839197459186 .
+
+  ex:W315 a ex:Weather ;
+  ex:weatherId 315 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.507727113206897 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.960094727428068 .
+
+  ex:W316 a ex:Weather ;
+  ex:weatherId 316 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.339875200230466 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.34527175052731 .
+
+  ex:W317 a ex:Weather ;
+  ex:weatherId 317 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 20.077771280866088 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.485176840129983 .
+
+  ex:W318 a ex:Weather ;
+  ex:weatherId 318 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.082171639691477 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.362088938069441 .
+
+  ex:W319 a ex:Weather ;
+  ex:weatherId 319 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.74920965027006 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.983580110034083 .
+
+  ex:W320 a ex:Weather ;
+  ex:weatherId 320 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.106299347158103 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.6044449291142815 .
+
+  ex:W321 a ex:Weather ;
+  ex:weatherId 321 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.13700297925172 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.3429956383039623 .
+
+  ex:W322 a ex:Weather ;
+  ex:weatherId 322 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.82163697555427 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.179119801363053 .
+
+  ex:W323 a ex:Weather ;
+  ex:weatherId 323 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 32.9267163704224 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.296302387778944 .
+
+  ex:W324 a ex:Weather ;
+  ex:weatherId 324 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 31.96256190933767 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.660072392567066 .
+
+  ex:W325 a ex:Weather ;
+  ex:weatherId 325 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.428491011849957 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.576803360711851 .
+
+  ex:W326 a ex:Weather ;
+  ex:weatherId 326 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.83634703395752 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.582553167512939 .
+
+  ex:W327 a ex:Weather ;
+  ex:weatherId 327 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.684562216410583 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.66145306999026 .
+
+  ex:W328 a ex:Weather ;
+  ex:weatherId 328 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.18823304382481 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.882953412757654 .
+
+  ex:W329 a ex:Weather ;
+  ex:weatherId 329 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.889315190838353 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.79863583939645 .
+
+  ex:W330 a ex:Weather ;
+  ex:weatherId 330 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.802263515329052 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.656638037381516 .
+
+  ex:W331 a ex:Weather ;
+  ex:weatherId 331 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.707346244834696 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.2012656840223044 .
+
+  ex:W332 a ex:Weather ;
+  ex:weatherId 332 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.69556734300692 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.0878149704462237 .
+
+  ex:W333 a ex:Weather ;
+  ex:weatherId 333 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.97691706321809 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.3960130922925784 .
+
+  ex:W334 a ex:Weather ;
+  ex:weatherId 334 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.90108335538659 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.205171733990625 .
+
+  ex:W335 a ex:Weather ;
+  ex:weatherId 335 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.01144602472772 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.8468455754476767 .
+
+  ex:W336 a ex:Weather ;
+  ex:weatherId 336 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.451677518233478 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.97488790299422 .
+
+  ex:W337 a ex:Weather ;
+  ex:weatherId 337 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 24.961815070220116 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.071579998456683 .
+
+  ex:W338 a ex:Weather ;
+  ex:weatherId 338 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.594836074144034 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.20426069735513 .
+
+  ex:W339 a ex:Weather ;
+  ex:weatherId 339 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 20.27367605269233 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.675839018376546 .
+
+  ex:W340 a ex:Weather ;
+  ex:weatherId 340 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.010337208673068 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.8112944651902 .
+
+  ex:W341 a ex:Weather ;
+  ex:weatherId 341 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.2882389184992 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.052804117164577 .
+
+  ex:W342 a ex:Weather ;
+  ex:weatherId 342 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.37835410565675 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.313444645232998 .
+
+  ex:W343 a ex:Weather ;
+  ex:weatherId 343 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.687418413579266 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.031513998358967 .
+
+  ex:W344 a ex:Weather ;
+  ex:weatherId 344 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.90698219362642 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.691665858423754 .
+
+  ex:W345 a ex:Weather ;
+  ex:weatherId 345 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.74386792714487 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.3245401825555945 .
+
+  ex:W346 a ex:Weather ;
+  ex:weatherId 346 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.208093340159152 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.379831293971764 .
+
+  ex:W347 a ex:Weather ;
+  ex:weatherId 347 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.081738730792665 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.5587384902356636 .
+
+  ex:W348 a ex:Weather ;
+  ex:weatherId 348 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.623662701225694 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.919231774952098 .
+
+  ex:W349 a ex:Weather ;
+  ex:weatherId 349 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.830593206200867 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.12102927045576 .
+
+  ex:W350 a ex:Weather ;
+  ex:weatherId 350 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.093442817664723 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.499019305274965 .
+
+  ex:W351 a ex:Weather ;
+  ex:weatherId 351 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.131965062675437 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.597625221770524 .
+
+  ex:W352 a ex:Weather ;
+  ex:weatherId 352 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.255871012135046 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.2886303722471713 .
+
+  ex:W353 a ex:Weather ;
+  ex:weatherId 353 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.193630255222622 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.145459581353352 .
+
+  ex:W354 a ex:Weather ;
+  ex:weatherId 354 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.893929417088536 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.4104162945865042 .
+
+  ex:W355 a ex:Weather ;
+  ex:weatherId 355 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.291931136188218 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.073933731614678 .
+
+  ex:W356 a ex:Weather ;
+  ex:weatherId 356 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.80027117583712 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.4023083461856296 .
+
+  ex:W357 a ex:Weather ;
+  ex:weatherId 357 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.73410423724367 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.5295991099862616 .
+
+  ex:W358 a ex:Weather ;
+  ex:weatherId 358 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.644497728191226 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.9716585404482467 .
+
+  ex:W359 a ex:Weather ;
+  ex:weatherId 359 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.84553129035705 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.344376117558015 .
+
+  ex:W360 a ex:Weather ;
+  ex:weatherId 360 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.788499272862808 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.611120537744277 .
+
+  ex:W361 a ex:Weather ;
+  ex:weatherId 361 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.398349291000784 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.06281812096244233 .
+
+  ex:W362 a ex:Weather ;
+  ex:weatherId 362 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.611506902546672 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.914159271475851 .
+
+  ex:W363 a ex:Weather ;
+  ex:weatherId 363 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 21.257097130111752 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.9412473699879 .
+
+  ex:W364 a ex:Weather ;
+  ex:weatherId 364 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.48792390753061 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.284034261435714 .
+
+  ex:W365 a ex:Weather ;
+  ex:weatherId 365 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.484284333149276 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.527129626290212 .
+
+  ex:W366 a ex:Weather ;
+  ex:weatherId 366 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.382009464865114 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.808384146014937 .
+
+  ex:W367 a ex:Weather ;
+  ex:weatherId 367 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.92539756964106 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.417347124463536 .
+
+  ex:W368 a ex:Weather ;
+  ex:weatherId 368 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.69996713046562 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.740783011649611 .
+
+  ex:W369 a ex:Weather ;
+  ex:weatherId 369 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.089708993637014 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.994358272374392 .
+
+  ex:W370 a ex:Weather ;
+  ex:weatherId 370 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.76802980761575 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.322907352812134 .
+
+  ex:W371 a ex:Weather ;
+  ex:weatherId 371 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.403362197574637 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.79767452946973 .
+
+  ex:W372 a ex:Weather ;
+  ex:weatherId 372 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.35012168055784 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.724796202676663 .
+
+  ex:W373 a ex:Weather ;
+  ex:weatherId 373 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.004750471517692 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.646455164577553 .
+
+  ex:W374 a ex:Weather ;
+  ex:weatherId 374 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.781353970257925 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.633071775865168 .
+
+  ex:W375 a ex:Weather ;
+  ex:weatherId 375 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.014236309034203 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.085215779946715 .
+
+  ex:W376 a ex:Weather ;
+  ex:weatherId 376 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.597512406078177 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.063815576688583 .
+
+  ex:W377 a ex:Weather ;
+  ex:weatherId 377 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.427140045541403 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.05596888031546 .
+
+  ex:W378 a ex:Weather ;
+  ex:weatherId 378 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.209482262627894 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.749606513497963 .
+
+  ex:W379 a ex:Weather ;
+  ex:weatherId 379 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.05643643383803 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.752986039984692 .
+
+  ex:W380 a ex:Weather ;
+  ex:weatherId 380 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.545312913935472 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.0529206124257335 .
+
+  ex:W381 a ex:Weather ;
+  ex:weatherId 381 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.189351973582305 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.469556610385927 .
+
+  ex:W382 a ex:Weather ;
+  ex:weatherId 382 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.365077757301282 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.530605755785967 .
+
+  ex:W383 a ex:Weather ;
+  ex:weatherId 383 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.179653032036274 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.086749486806898 .
+
+  ex:W384 a ex:Weather ;
+  ex:weatherId 384 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.68397956263006 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.741694170346802 .
+
+  ex:W385 a ex:Weather ;
+  ex:weatherId 385 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.78369819626718 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.198831171921034 .
+
+  ex:W386 a ex:Weather ;
+  ex:weatherId 386 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.03160472850975 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.798957656036176 .
+
+  ex:W387 a ex:Weather ;
+  ex:weatherId 387 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 31.61285035501249 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.208486233649435 .
+
+  ex:W388 a ex:Weather ;
+  ex:weatherId 388 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.409724181403508 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.162436698012508 .
+
+  ex:W389 a ex:Weather ;
+  ex:weatherId 389 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.52411391587932 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.257866711087281 .
+
+  ex:W390 a ex:Weather ;
+  ex:weatherId 390 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.32648046073107 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.36660371867627 .
+
+  ex:W391 a ex:Weather ;
+  ex:weatherId 391 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.8981564529287 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.526447033123901 .
+
+  ex:W392 a ex:Weather ;
+  ex:weatherId 392 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.82372681737253 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.567670112726148 .
+
+  ex:W393 a ex:Weather ;
+  ex:weatherId 393 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.2676149643124 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.07468140856009 .
+
+  ex:W394 a ex:Weather ;
+  ex:weatherId 394 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.697303204676498 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.313650835245591 .
+
+  ex:W395 a ex:Weather ;
+  ex:weatherId 395 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.829736747955096 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.91249304708116 .
+
+  ex:W396 a ex:Weather ;
+  ex:weatherId 396 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.4591874971263 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.110500656183011 .
+
+  ex:W397 a ex:Weather ;
+  ex:weatherId 397 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 32.04387066694015 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.12986805525147 .
+
+  ex:W398 a ex:Weather ;
+  ex:weatherId 398 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.017147412182787 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.317716191137609 .
+
+  ex:W399 a ex:Weather ;
+  ex:weatherId 399 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.101642796360519 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.656022613409995 .
+
+  ex:W400 a ex:Weather ;
+  ex:weatherId 400 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.917514701575417 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.644111418946432 .
+
+  ex:W401 a ex:Weather ;
+  ex:weatherId 401 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.88959861936135 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.74189401648885 .
+
+  ex:W402 a ex:Weather ;
+  ex:weatherId 402 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.658125382749226 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.8461979206725494 .
+
+  ex:W403 a ex:Weather ;
+  ex:weatherId 403 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.426378838391482 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.992551369198427 .
+
+  ex:W404 a ex:Weather ;
+  ex:weatherId 404 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.28985760614697 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.258620095493796 .
+
+  ex:W405 a ex:Weather ;
+  ex:weatherId 405 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 32.36321608103094 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.937719527287712 .
+
+  ex:W406 a ex:Weather ;
+  ex:weatherId 406 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.167259534300698 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.562583109732248 .
+
+  ex:W407 a ex:Weather ;
+  ex:weatherId 407 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.602815435206008 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.990684309758027 .
+
+  ex:W408 a ex:Weather ;
+  ex:weatherId 408 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.172102105861473 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.77992844171955 .
+
+  ex:W409 a ex:Weather ;
+  ex:weatherId 409 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.309400175399674 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.297695531302769 .
+
+  ex:W410 a ex:Weather ;
+  ex:weatherId 410 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 31.398938348162 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.975576079892296 .
+
+  ex:W411 a ex:Weather ;
+  ex:weatherId 411 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.359340482381242 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.10053105219606229 .
+
+  ex:W412 a ex:Weather ;
+  ex:weatherId 412 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.127717434336672 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.950329296867263 .
+
+  ex:W413 a ex:Weather ;
+  ex:weatherId 413 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.528671530065857 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.885334732742287 .
+
+  ex:W414 a ex:Weather ;
+  ex:weatherId 414 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 22.533907239735974 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.299252102304038 .
+
+  ex:W415 a ex:Weather ;
+  ex:weatherId 415 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.139612776539167 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.12264998027487 .
+
+  ex:W416 a ex:Weather ;
+  ex:weatherId 416 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.644815677850247 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.901446985286187 .
+
+  ex:W417 a ex:Weather ;
+  ex:weatherId 417 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.58994646847667 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.8044161114257 .
+
+  ex:W418 a ex:Weather ;
+  ex:weatherId 418 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.74456974472902 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.449892985804542 .
+
+  ex:W419 a ex:Weather ;
+  ex:weatherId 419 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.019271338936324 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.3384707105078295 .
+
+  ex:W420 a ex:Weather ;
+  ex:weatherId 420 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.643409203525465 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.74178916157513 .
+
+  ex:W421 a ex:Weather ;
+  ex:weatherId 421 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.914840676250257 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.672100740161994 .
+
+  ex:W422 a ex:Weather ;
+  ex:weatherId 422 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.521045143735087 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.9049837803777572 .
+
+  ex:W423 a ex:Weather ;
+  ex:weatherId 423 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.887917184570906 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.62834211164041 .
+
+  ex:W424 a ex:Weather ;
+  ex:weatherId 424 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.43025894814882 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.462860413943304 .
+
+  ex:W425 a ex:Weather ;
+  ex:weatherId 425 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.050174993767644 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.211596180020972 .
+
+  ex:W426 a ex:Weather ;
+  ex:weatherId 426 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.94249000315422 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.078755438473923 .
+
+  ex:W427 a ex:Weather ;
+  ex:weatherId 427 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.272476423833382 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.8433591694486462 .
+
+  ex:W428 a ex:Weather ;
+  ex:weatherId 428 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.967488619799852 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.913959263987447 .
+
+  ex:W429 a ex:Weather ;
+  ex:weatherId 429 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.60107366062868 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.461241230855137 .
+
+  ex:W430 a ex:Weather ;
+  ex:weatherId 430 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.0172712450082 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.963216527753712 .
+
+  ex:W431 a ex:Weather ;
+  ex:weatherId 431 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.19049021895637 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.470958319837926 .
+
+  ex:W432 a ex:Weather ;
+  ex:weatherId 432 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.201881568761944 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.641015385275166 .
+
+  ex:W433 a ex:Weather ;
+  ex:weatherId 433 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.41485480876255 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.314026363606043 .
+
+  ex:W434 a ex:Weather ;
+  ex:weatherId 434 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.007182870974255 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.488735117444115 .
+
+  ex:W435 a ex:Weather ;
+  ex:weatherId 435 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.370526874475225 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.954871330194507 .
+
+  ex:W436 a ex:Weather ;
+  ex:weatherId 436 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 34.363868558294435 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.166078002112287 .
+
+  ex:W437 a ex:Weather ;
+  ex:weatherId 437 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.073160763222255 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.1666931334334745 .
+
+  ex:W438 a ex:Weather ;
+  ex:weatherId 438 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.220479818859978 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.653447684793363 .
+
+  ex:W439 a ex:Weather ;
+  ex:weatherId 439 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.650523589825038 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.237672237248878 .
+
+  ex:W440 a ex:Weather ;
+  ex:weatherId 440 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.709177493533087 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.583983024023388 .
+
+  ex:W441 a ex:Weather ;
+  ex:weatherId 441 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.346163779247888 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.236042739115373 .
+
+  ex:W442 a ex:Weather ;
+  ex:weatherId 442 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.950799112067504 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.56203671019573 .
+
+  ex:W443 a ex:Weather ;
+  ex:weatherId 443 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.83189093482874 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.782850908690463 .
+
+  ex:W444 a ex:Weather ;
+  ex:weatherId 444 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.80527877771245 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.8808075877692878 .
+
+  ex:W445 a ex:Weather ;
+  ex:weatherId 445 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.991612853351317 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.803663825041653 .
+
+  ex:W446 a ex:Weather ;
+  ex:weatherId 446 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.849871128133696 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.763534333327105 .
+
+  ex:W447 a ex:Weather ;
+  ex:weatherId 447 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.833251574186065 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.882304929926645 .
+
+  ex:W448 a ex:Weather ;
+  ex:weatherId 448 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.597019777866997 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.755658694827531 .
+
+  ex:W449 a ex:Weather ;
+  ex:weatherId 449 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.91844148070291 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.7601069184808225 .
+
+  ex:W450 a ex:Weather ;
+  ex:weatherId 450 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.849910858030263 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.144978887128115 .
+
+  ex:W451 a ex:Weather ;
+  ex:weatherId 451 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.20699159837737 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.914581094887946 .
+
+  ex:W452 a ex:Weather ;
+  ex:weatherId 452 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.195416948383674 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.246859335618915 .
+
+  ex:W453 a ex:Weather ;
+  ex:weatherId 453 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.684844119528904 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.004288633809105 .
+
+  ex:W454 a ex:Weather ;
+  ex:weatherId 454 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.490280937936678 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.331735198173023 .
+
+  ex:W455 a ex:Weather ;
+  ex:weatherId 455 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.549327726295715 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.2965165870329765 .
+
+  ex:W456 a ex:Weather ;
+  ex:weatherId 456 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.0030048848962 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.87189172900263 .
+
+  ex:W457 a ex:Weather ;
+  ex:weatherId 457 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 34.03099948710654 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.152283695197177 .
+
+  ex:W458 a ex:Weather ;
+  ex:weatherId 458 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.7242449248738 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.67541132036035 .
+
+  ex:W459 a ex:Weather ;
+  ex:weatherId 459 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.70403630598919 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.4876921040517495 .
+
+  ex:W460 a ex:Weather ;
+  ex:weatherId 460 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.66845451883229 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.68710300911507 .
+
+  ex:W461 a ex:Weather ;
+  ex:weatherId 461 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.21640236598501 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.2569199172191 .
+
+  ex:W462 a ex:Weather ;
+  ex:weatherId 462 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.67665106837724 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.6779386294440695 .
+
+  ex:W463 a ex:Weather ;
+  ex:weatherId 463 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.279989619789944 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.4085364051804 .
+
+  ex:W464 a ex:Weather ;
+  ex:weatherId 464 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.207041679811276 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.088063089599057 .
+
+  ex:W465 a ex:Weather ;
+  ex:weatherId 465 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.585578571525744 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.822641768977937 .
+
+  ex:W466 a ex:Weather ;
+  ex:weatherId 466 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.4036518539333 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.089850654979017 .
+
+  ex:W467 a ex:Weather ;
+  ex:weatherId 467 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.384035565445277 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.338840964018317 .
+
+  ex:W468 a ex:Weather ;
+  ex:weatherId 468 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 24.86553693567599 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.944221451575256 .
+
+  ex:W469 a ex:Weather ;
+  ex:weatherId 469 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.443968179583518 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.0478259118972244 .
+
+  ex:W470 a ex:Weather ;
+  ex:weatherId 470 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 31.80904812553867 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.603019659958363 .
+
+  ex:W471 a ex:Weather ;
+  ex:weatherId 471 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.85413042399962 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.2903160797767645 .
+
+  ex:W472 a ex:Weather ;
+  ex:weatherId 472 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.420775259692054 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.7186036437194598 .
+
+  ex:W473 a ex:Weather ;
+  ex:weatherId 473 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.34062992244897 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.4000814816281 .
+
+  ex:W474 a ex:Weather ;
+  ex:weatherId 474 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.50515320830273 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.623146889098344 .
+
+  ex:W475 a ex:Weather ;
+  ex:weatherId 475 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.01403728022517 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.274130241041305 .
+
+  ex:W476 a ex:Weather ;
+  ex:weatherId 476 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.847006571867244 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.282255500209988 .
+
+  ex:W477 a ex:Weather ;
+  ex:weatherId 477 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.459331671269656 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.237714033609505 .
+
+  ex:W478 a ex:Weather ;
+  ex:weatherId 478 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.631353702545198 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.029058889186873 .
+
+  ex:W479 a ex:Weather ;
+  ex:weatherId 479 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.037107673240172 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.888952888633772 .
+
+  ex:W480 a ex:Weather ;
+  ex:weatherId 480 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.252304104116103 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.2667329617811447 .
+
+  ex:W481 a ex:Weather ;
+  ex:weatherId 481 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 23.74330777633653 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.7983248971940458 .
+
+  ex:W482 a ex:Weather ;
+  ex:weatherId 482 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.296347078593804 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.529140393538542 .
+
+  ex:W483 a ex:Weather ;
+  ex:weatherId 483 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.270477451700454 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.412677629669812 .
+
+  ex:W484 a ex:Weather ;
+  ex:weatherId 484 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.98091892274222 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.687823712016986 .
+
+  ex:W485 a ex:Weather ;
+  ex:weatherId 485 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.76825266681211 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.325010563730578 .
+
+  ex:W486 a ex:Weather ;
+  ex:weatherId 486 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.740557142166722 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.678107540037388 .
+
+  ex:W487 a ex:Weather ;
+  ex:weatherId 487 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.469934946600254 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.5113115727450275 .
+
+  ex:W488 a ex:Weather ;
+  ex:weatherId 488 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.975551476628063 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.696772633777641 .
+
+  ex:W489 a ex:Weather ;
+  ex:weatherId 489 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.988676704274752 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.93039811275966 .
+
+  ex:W490 a ex:Weather ;
+  ex:weatherId 490 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.050555641508385 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.746219083024552 .
+
+  ex:W491 a ex:Weather ;
+  ex:weatherId 491 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.110763152897658 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.222742946640248 .
+
+  ex:W492 a ex:Weather ;
+  ex:weatherId 492 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.635806596900586 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.81041020543347 .
+
+  ex:W493 a ex:Weather ;
+  ex:weatherId 493 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.284323553483375 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.1118309195328 .
+
+  ex:W494 a ex:Weather ;
+  ex:weatherId 494 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.683755318783163 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.703046673607005 .
+
+  ex:W495 a ex:Weather ;
+  ex:weatherId 495 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.62339056002064 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.795128268186694 .
+
+  ex:W496 a ex:Weather ;
+  ex:weatherId 496 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.442198280200536 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.09238049215391 .
+
+  ex:W497 a ex:Weather ;
+  ex:weatherId 497 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.771111684464827 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.141648481205333 .
+
+  ex:W498 a ex:Weather ;
+  ex:weatherId 498 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.831457181007842 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.360108706264192 .
+
+  ex:W499 a ex:Weather ;
+  ex:weatherId 499 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.597941631841465 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.3754415408201 .
+
+  ex:W500 a ex:Weather ;
+  ex:weatherId 500 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.46261314140557 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.897224456299599 .
+
+  ex:W501 a ex:Weather ;
+  ex:weatherId 501 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.084491597949864 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.578761521469535 .
+
+  ex:W502 a ex:Weather ;
+  ex:weatherId 502 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.644899776525982 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.06384331229335 .
+
+  ex:W503 a ex:Weather ;
+  ex:weatherId 503 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 29.093615254732935 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.900179608772316 .
+
+  ex:W504 a ex:Weather ;
+  ex:weatherId 504 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.766981675312028 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.23277165038028 .
+
+  ex:W505 a ex:Weather ;
+  ex:weatherId 505 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.875004386091423 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.865428935563398 .
+
+  ex:W506 a ex:Weather ;
+  ex:weatherId 506 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.85251904452329 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.035508197022041 .
+
+  ex:W507 a ex:Weather ;
+  ex:weatherId 507 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.664960565792917 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.316580784698196 .
+
+  ex:W508 a ex:Weather ;
+  ex:weatherId 508 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.37809968957436 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.5620153957490155 .
+
+  ex:W509 a ex:Weather ;
+  ex:weatherId 509 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.61897391013956 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.281333788090095 .
+
+  ex:W510 a ex:Weather ;
+  ex:weatherId 510 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.31350304795434 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.22281356857393 .
+
+  ex:W511 a ex:Weather ;
+  ex:weatherId 511 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.339430339818144 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.008504976477287 .
+
+  ex:W512 a ex:Weather ;
+  ex:weatherId 512 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.1857489048561 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.027665711193801 .
+
+  ex:W513 a ex:Weather ;
+  ex:weatherId 513 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.54348368442635 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.6690480230045863 .
+
+  ex:W514 a ex:Weather ;
+  ex:weatherId 514 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.64770968116547 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.527728448113342 .
+
+  ex:W515 a ex:Weather ;
+  ex:weatherId 515 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.57031122602696 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.135151275782523 .
+
+  ex:W516 a ex:Weather ;
+  ex:weatherId 516 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.351867711271694 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.54910934364771 .
+
+  ex:W517 a ex:Weather ;
+  ex:weatherId 517 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.956272977172688 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.851980104436283 .
+
+  ex:W518 a ex:Weather ;
+  ex:weatherId 518 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.404181107412168 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.957683511140461 .
+
+  ex:W519 a ex:Weather ;
+  ex:weatherId 519 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.56762455770162 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.318020487415725 .
+
+  ex:W520 a ex:Weather ;
+  ex:weatherId 520 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.268778546969177 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.933926565926797 .
+
+  ex:W521 a ex:Weather ;
+  ex:weatherId 521 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.92970949970843 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.004126953671584 .
+
+  ex:W522 a ex:Weather ;
+  ex:weatherId 522 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.293341140925277 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.536776620964751 .
+
+  ex:W523 a ex:Weather ;
+  ex:weatherId 523 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.364255971100327 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.109625010518908 .
+
+  ex:W524 a ex:Weather ;
+  ex:weatherId 524 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.595715603584594 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.289715550232625 .
+
+  ex:W525 a ex:Weather ;
+  ex:weatherId 525 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.58363755259462 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.126685391657732 .
+
+  ex:W526 a ex:Weather ;
+  ex:weatherId 526 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.979837119403893 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.516469215409694 .
+
+  ex:W527 a ex:Weather ;
+  ex:weatherId 527 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.67205093453757 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.8493981851306631 .
+
+  ex:W528 a ex:Weather ;
+  ex:weatherId 528 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.25971477432187 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.745260142770174 .
+
+  ex:W529 a ex:Weather ;
+  ex:weatherId 529 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.364651653527233 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.213396596669783 .
+
+  ex:W530 a ex:Weather ;
+  ex:weatherId 530 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 32.93428579680245 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.765031543347369 .
+
+  ex:W531 a ex:Weather ;
+  ex:weatherId 531 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 33.54069089592613 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.08713362432738 .
+
+  ex:W532 a ex:Weather ;
+  ex:weatherId 532 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.89116646370602 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.3055266218112 .
+
+  ex:W533 a ex:Weather ;
+  ex:weatherId 533 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 20.13553135441016 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.24516241980684 .
+
+  ex:W534 a ex:Weather ;
+  ex:weatherId 534 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.6452042667808 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.776710627783288 .
+
+  ex:W535 a ex:Weather ;
+  ex:weatherId 535 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.35271571817259 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.600947546201713 .
+
+  ex:W536 a ex:Weather ;
+  ex:weatherId 536 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.463480311913205 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.594457326432487 .
+
+  ex:W537 a ex:Weather ;
+  ex:weatherId 537 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.188315865611784 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.7529967238930655 .
+
+  ex:W538 a ex:Weather ;
+  ex:weatherId 538 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.9055657844062 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.276284994553599 .
+
+  ex:W539 a ex:Weather ;
+  ex:weatherId 539 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.355049783427546 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.366081893846946 .
+
+  ex:W540 a ex:Weather ;
+  ex:weatherId 540 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.31497287008562 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.846027421241914 .
+
+  ex:W541 a ex:Weather ;
+  ex:weatherId 541 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.246086888224383 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.391239955041129 .
+
+  ex:W542 a ex:Weather ;
+  ex:weatherId 542 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.383777188535802 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.081913392671858 .
+
+  ex:W543 a ex:Weather ;
+  ex:weatherId 543 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.240896798164535 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.8500087587792757 .
+
+  ex:W544 a ex:Weather ;
+  ex:weatherId 544 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.215450382211998 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.349976611814109 .
+
+  ex:W545 a ex:Weather ;
+  ex:weatherId 545 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.132741158734344 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.930170394474167 .
+
+  ex:W546 a ex:Weather ;
+  ex:weatherId 546 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.45228637027357 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.021019065898647 .
+
+  ex:W547 a ex:Weather ;
+  ex:weatherId 547 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.910706276693364 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.961513010496455 .
+
+  ex:W548 a ex:Weather ;
+  ex:weatherId 548 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 23.47889625826604 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.50946056628044 .
+
+  ex:W549 a ex:Weather ;
+  ex:weatherId 549 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 32.25594155086457 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.65089178704902 .
+
+  ex:W550 a ex:Weather ;
+  ex:weatherId 550 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 21.24543572097592 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.058993162756845 .
+
+  ex:W551 a ex:Weather ;
+  ex:weatherId 551 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.63894192231951 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.895444539655777 .
+
+  ex:W552 a ex:Weather ;
+  ex:weatherId 552 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.16909228217108 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.93131312577965 .
+
+  ex:W553 a ex:Weather ;
+  ex:weatherId 553 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.72879505113466 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.594279322167353 .
+
+  ex:W554 a ex:Weather ;
+  ex:weatherId 554 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.85433933559054 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.503599519510168 .
+
+  ex:W555 a ex:Weather ;
+  ex:weatherId 555 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.31642183531165 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.33095033104165 .
+
+  ex:W556 a ex:Weather ;
+  ex:weatherId 556 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.082192987683328 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.522100516287036 .
+
+  ex:W557 a ex:Weather ;
+  ex:weatherId 557 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.11049584659348 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.00943554205881 .
+
+  ex:W558 a ex:Weather ;
+  ex:weatherId 558 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.905796750514337 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.59462332268384 .
+
+  ex:W559 a ex:Weather ;
+  ex:weatherId 559 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.339121584096013 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.33456187535901 .
+
+  ex:W560 a ex:Weather ;
+  ex:weatherId 560 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.84819872961339 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.2220933523926458 .
+
+  ex:W561 a ex:Weather ;
+  ex:weatherId 561 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.398632114188683 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.282799386192642 .
+
+  ex:W562 a ex:Weather ;
+  ex:weatherId 562 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.60158175122916 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.04173193622732 .
+
+  ex:W563 a ex:Weather ;
+  ex:weatherId 563 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.486675062307512 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.279589125467876 .
+
+  ex:W564 a ex:Weather ;
+  ex:weatherId 564 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.88278722442335 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.938959458685857 .
+
+  ex:W565 a ex:Weather ;
+  ex:weatherId 565 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.61301020478492 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.609849549645988 .
+
+  ex:W566 a ex:Weather ;
+  ex:weatherId 566 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.245936317558197 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.610364567848472 .
+
+  ex:W567 a ex:Weather ;
+  ex:weatherId 567 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.800097816413313 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.2241749467643745 .
+
+  ex:W568 a ex:Weather ;
+  ex:weatherId 568 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.453782267923792 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.250759749374157 .
+
+  ex:W569 a ex:Weather ;
+  ex:weatherId 569 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.017062167065102 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.399371297483285 .
+
+  ex:W570 a ex:Weather ;
+  ex:weatherId 570 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 22.650525604880166 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.9718846048387295 .
+
+  ex:W571 a ex:Weather ;
+  ex:weatherId 571 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.84967004316751 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.909358492535186 .
+
+  ex:W572 a ex:Weather ;
+  ex:weatherId 572 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.840665887528424 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.855418817403695 .
+
+  ex:W573 a ex:Weather ;
+  ex:weatherId 573 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.78248864232033 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.39875665795378 .
+
+  ex:W574 a ex:Weather ;
+  ex:weatherId 574 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.169728253195828 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.473268321092215 .
+
+  ex:W575 a ex:Weather ;
+  ex:weatherId 575 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.262180661583002 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.04981753653864 .
+
+  ex:W576 a ex:Weather ;
+  ex:weatherId 576 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.262251398216858 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.828195010139511 .
+
+  ex:W577 a ex:Weather ;
+  ex:weatherId 577 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.73915646062126 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.1394456441803635 .
+
+  ex:W578 a ex:Weather ;
+  ex:weatherId 578 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.939630341485667 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.461994033326746 .
+
+  ex:W579 a ex:Weather ;
+  ex:weatherId 579 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.313588553929954 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.8827209356525625 .
+
+  ex:W580 a ex:Weather ;
+  ex:weatherId 580 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.84316029646625 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.390373306912673 .
+
+  ex:W581 a ex:Weather ;
+  ex:weatherId 581 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.61190429287832 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.20987282279888886 .
+
+  ex:W582 a ex:Weather ;
+  ex:weatherId 582 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.48607612818097 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.718505524178267 .
+
+  ex:W583 a ex:Weather ;
+  ex:weatherId 583 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.618385661025044 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.3291786096342504 .
+
+  ex:W584 a ex:Weather ;
+  ex:weatherId 584 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.07582299336062 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.110776758578023 .
+
+  ex:W585 a ex:Weather ;
+  ex:weatherId 585 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.5122040171983 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.823011044612647 .
+
+  ex:W586 a ex:Weather ;
+  ex:weatherId 586 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.65049345483697 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.070939630237723 .
+
+  ex:W587 a ex:Weather ;
+  ex:weatherId 587 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.127418888667513 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.707563226142344 .
+
+  ex:W588 a ex:Weather ;
+  ex:weatherId 588 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.496772545208252 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.325848719643627 .
+
+  ex:W589 a ex:Weather ;
+  ex:weatherId 589 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.504015348311363 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.28661811734002507 .
+
+  ex:W590 a ex:Weather ;
+  ex:weatherId 590 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.564680460961448 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.392191061315998 .
+
+  ex:W591 a ex:Weather ;
+  ex:weatherId 591 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.59930788718604 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.6672813778223645 .
+
+  ex:W592 a ex:Weather ;
+  ex:weatherId 592 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.649957566602637 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.476162177340049 .
+
+  ex:W593 a ex:Weather ;
+  ex:weatherId 593 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.790233772658205 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.859217552015043 .
+
+  ex:W594 a ex:Weather ;
+  ex:weatherId 594 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.353756192265145 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.960182346574992 .
+
+  ex:W595 a ex:Weather ;
+  ex:weatherId 595 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.04049706257296 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.4123998938719335 .
+
+  ex:W596 a ex:Weather ;
+  ex:weatherId 596 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.835649111837213 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.065812792460001 .
+
+  ex:W597 a ex:Weather ;
+  ex:weatherId 597 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.89732634339534 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.036836707275162 .
+
+  ex:W598 a ex:Weather ;
+  ex:weatherId 598 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 23.60674355017842 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.44678222913695 .
+
+  ex:W599 a ex:Weather ;
+  ex:weatherId 599 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.06550295135191 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.023863829014473 .
+
+  ex:W600 a ex:Weather ;
+  ex:weatherId 600 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.361033485743718 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.085567935796451 .
+
+  ex:W601 a ex:Weather ;
+  ex:weatherId 601 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.65291077125362 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.680630285582602 .
+
+  ex:W602 a ex:Weather ;
+  ex:weatherId 602 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.47791672583277 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.61116323558203 .
+
+  ex:W603 a ex:Weather ;
+  ex:weatherId 603 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.614207534803988 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.814526302265262 .
+
+  ex:W604 a ex:Weather ;
+  ex:weatherId 604 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.081515907439965 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.56103500457696 .
+
+  ex:W605 a ex:Weather ;
+  ex:weatherId 605 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 24.632696930697247 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.1083177688448886 .
+
+  ex:W606 a ex:Weather ;
+  ex:weatherId 606 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.220625288572943 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.273573579705207 .
+
+  ex:W607 a ex:Weather ;
+  ex:weatherId 607 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.371612432478706 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.4443696405116082 .
+
+  ex:W608 a ex:Weather ;
+  ex:weatherId 608 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 28.619496544764893 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.26318054130133 .
+
+  ex:W609 a ex:Weather ;
+  ex:weatherId 609 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.242415492877866 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.3900818373211727 .
+
+  ex:W610 a ex:Weather ;
+  ex:weatherId 610 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 18.977125555505918 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.2472896389797126 .
+
+  ex:W611 a ex:Weather ;
+  ex:weatherId 611 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.757080878527248 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.741030436843753 .
+
+  ex:W612 a ex:Weather ;
+  ex:weatherId 612 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 24.986676699572364 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.745911251650352 .
+
+  ex:W613 a ex:Weather ;
+  ex:weatherId 613 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.000973293879685 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.797409534354891 .
+
+  ex:W614 a ex:Weather ;
+  ex:weatherId 614 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.034212958219367 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.245515313877448 .
+
+  ex:W615 a ex:Weather ;
+  ex:weatherId 615 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.191304632938916 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.20936434430932 .
+
+  ex:W616 a ex:Weather ;
+  ex:weatherId 616 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.66290008356194 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.442404304833974 .
+
+  ex:W617 a ex:Weather ;
+  ex:weatherId 617 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.308137914960255 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.624511220994191 .
+
+  ex:W618 a ex:Weather ;
+  ex:weatherId 618 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.09341244092102 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.045502217981005 .
+
+  ex:W619 a ex:Weather ;
+  ex:weatherId 619 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.03523984270847 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.37220578187878 .
+
+  ex:W620 a ex:Weather ;
+  ex:weatherId 620 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.187078444115656 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.656052213230138 .
+
+  ex:W621 a ex:Weather ;
+  ex:weatherId 621 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.278671695201236 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.22157105188619353 .
+
+  ex:W622 a ex:Weather ;
+  ex:weatherId 622 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.113869598125483 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.681043521619134 .
+
+  ex:W623 a ex:Weather ;
+  ex:weatherId 623 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 28.604555584167066 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.617592466444155 .
+
+  ex:W624 a ex:Weather ;
+  ex:weatherId 624 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.180710684073617 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.773296265867444 .
+
+  ex:W625 a ex:Weather ;
+  ex:weatherId 625 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.711417340710966 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.118066261967991 .
+
+  ex:W626 a ex:Weather ;
+  ex:weatherId 626 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 22.065028170041284 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.549974832713467 .
+
+  ex:W627 a ex:Weather ;
+  ex:weatherId 627 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.84630779346386 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.866305465086239 .
+
+  ex:W628 a ex:Weather ;
+  ex:weatherId 628 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.24261860525543 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.894734556584199 .
+
+  ex:W629 a ex:Weather ;
+  ex:weatherId 629 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.374256650365353 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.263501645640718 .
+
+  ex:W630 a ex:Weather ;
+  ex:weatherId 630 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.643433349528546 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.34610954840973 .
+
+  ex:W631 a ex:Weather ;
+  ex:weatherId 631 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 30.64969849127876 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.380901486644797 .
+
+  ex:W632 a ex:Weather ;
+  ex:weatherId 632 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 19.113745243911104 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.373792079810472 .
+
+  ex:W633 a ex:Weather ;
+  ex:weatherId 633 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 20.214265998398332 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.6186176278713207 .
+
+  ex:W634 a ex:Weather ;
+  ex:weatherId 634 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.839024468632726 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.5075069846774656 .
+
+  ex:W635 a ex:Weather ;
+  ex:weatherId 635 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.50467140865654 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.4339061345334456 .
+
+  ex:W636 a ex:Weather ;
+  ex:weatherId 636 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.037631792726444 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.539368690574332 .
+
+  ex:W637 a ex:Weather ;
+  ex:weatherId 637 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.23539576180275 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.914951251900414 .
+
+  ex:W638 a ex:Weather ;
+  ex:weatherId 638 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.765350119889966 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.292410264730097 .
+
+  ex:W639 a ex:Weather ;
+  ex:weatherId 639 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.443340476750265 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.694651530148899 .
+
+  ex:W640 a ex:Weather ;
+  ex:weatherId 640 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.25879164989051 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.793069903030952 .
+
+  ex:W641 a ex:Weather ;
+  ex:weatherId 641 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.43002752601836 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.5465310644787884 .
+
+  ex:W642 a ex:Weather ;
+  ex:weatherId 642 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.25429779973787 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.2921799421776572 .
+
+  ex:W643 a ex:Weather ;
+  ex:weatherId 643 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.318938779372345 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.749025918450774 .
+
+  ex:W644 a ex:Weather ;
+  ex:weatherId 644 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 33.378530672791086 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.65561737921591 .
+
+  ex:W645 a ex:Weather ;
+  ex:weatherId 645 ;
+  ex:summary "Clear" ;
+  ex:temperature 34.56794557601192 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.251358354775702 .
+
+  ex:W646 a ex:Weather ;
+  ex:weatherId 646 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.611891963506018 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.321580846867025 .
+
+  ex:W647 a ex:Weather ;
+  ex:weatherId 647 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.900538377938766 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.167991472366632 .
+
+  ex:W648 a ex:Weather ;
+  ex:weatherId 648 ;
+  ex:summary "Clear" ;
+  ex:temperature 15.863474715940233 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.394863908153898 .
+
+  ex:W649 a ex:Weather ;
+  ex:weatherId 649 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.705960322317466 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.018588337399221277 .
+
+  ex:W650 a ex:Weather ;
+  ex:weatherId 650 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.11705385903658 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.189115390190221 .
+
+  ex:W651 a ex:Weather ;
+  ex:weatherId 651 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.844744109836967 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.234517538255513 .
+
+  ex:W652 a ex:Weather ;
+  ex:weatherId 652 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.950969026376413 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.60958925048748 .
+
+  ex:W653 a ex:Weather ;
+  ex:weatherId 653 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.46645831721615 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.075104720235252 .
+
+  ex:W654 a ex:Weather ;
+  ex:weatherId 654 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.20143269909146 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.478942689581349 .
+
+  ex:W655 a ex:Weather ;
+  ex:weatherId 655 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.235044337314196 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.0377234467326053 .
+
+  ex:W656 a ex:Weather ;
+  ex:weatherId 656 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.558041944977354 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.649160813049801 .
+
+  ex:W657 a ex:Weather ;
+  ex:weatherId 657 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.080712692577976 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.640384168448728 .
+
+  ex:W658 a ex:Weather ;
+  ex:weatherId 658 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.302367689607358 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.9445414882103393 .
+
+  ex:W659 a ex:Weather ;
+  ex:weatherId 659 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.505198088853327 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.721368407044514 .
+
+  ex:W660 a ex:Weather ;
+  ex:weatherId 660 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.96095582261544 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.468143701349437 .
+
+  ex:W661 a ex:Weather ;
+  ex:weatherId 661 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.220632285249316 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.474616512208473 .
+
+  ex:W662 a ex:Weather ;
+  ex:weatherId 662 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.35881502604169 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.15432294551907 .
+
+  ex:W663 a ex:Weather ;
+  ex:weatherId 663 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.112084309804295 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.759402671818632 .
+
+  ex:W664 a ex:Weather ;
+  ex:weatherId 664 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.366190610136968 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.24781448372302 .
+
+  ex:W665 a ex:Weather ;
+  ex:weatherId 665 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.723915609301486 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.712937306685543 .
+
+  ex:W666 a ex:Weather ;
+  ex:weatherId 666 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.252436816972477 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.42630494493707 .
+
+  ex:W667 a ex:Weather ;
+  ex:weatherId 667 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.391786749196815 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.236372573721834 .
+
+  ex:W668 a ex:Weather ;
+  ex:weatherId 668 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.85981279646264 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.387139684814965 .
+
+  ex:W669 a ex:Weather ;
+  ex:weatherId 669 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.202194249976504 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.12094332457543 .
+
+  ex:W670 a ex:Weather ;
+  ex:weatherId 670 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.508775109273877 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 0.10279255171120605 .
+
+  ex:W671 a ex:Weather ;
+  ex:weatherId 671 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.069753331929096 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.65305210088398 .
+
+  ex:W672 a ex:Weather ;
+  ex:weatherId 672 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.396414402564286 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.425032547973053 .
+
+  ex:W673 a ex:Weather ;
+  ex:weatherId 673 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.541165582686624 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.064898093296126 .
+
+  ex:W674 a ex:Weather ;
+  ex:weatherId 674 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.91850417627349 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.6393146928732438 .
+
+  ex:W675 a ex:Weather ;
+  ex:weatherId 675 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.502613353322303 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 12.767011548408636 .
+
+  ex:W676 a ex:Weather ;
+  ex:weatherId 676 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.447535146503558 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.763043162732889 .
+
+  ex:W677 a ex:Weather ;
+  ex:weatherId 677 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.772008593592346 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.53289269639695 .
+
+  ex:W678 a ex:Weather ;
+  ex:weatherId 678 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.02733831639038 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 11.556559430228715 .
+
+  ex:W679 a ex:Weather ;
+  ex:weatherId 679 ;
+  ex:summary "Clear" ;
+  ex:temperature 20.988870209837735 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.861260567413119 .
+
+  ex:W680 a ex:Weather ;
+  ex:weatherId 680 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.71303236160464 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.677318856924977 .
+
+  ex:W681 a ex:Weather ;
+  ex:weatherId 681 ;
+  ex:summary "Clear" ;
+  ex:temperature 29.94439175484075 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.112707927379631 .
+
+  ex:W682 a ex:Weather ;
+  ex:weatherId 682 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.058727351498042 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.084837276543915 .
+
+  ex:W683 a ex:Weather ;
+  ex:weatherId 683 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 21.690225774838645 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.4183191897595848 .
+
+  ex:W684 a ex:Weather ;
+  ex:weatherId 684 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.72958184377414 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.661456237816699 .
+
+  ex:W685 a ex:Weather ;
+  ex:weatherId 685 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 30.65163879702676 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 19.551799206900863 .
+
+  ex:W686 a ex:Weather ;
+  ex:weatherId 686 ;
+  ex:summary "Clear" ;
+  ex:temperature 32.45460500969204 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 18.230294517317017 .
+
+  ex:W687 a ex:Weather ;
+  ex:weatherId 687 ;
+  ex:summary "Clear" ;
+  ex:temperature 31.05286619591421 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 5.112781875907231 .
+
+  ex:W688 a ex:Weather ;
+  ex:weatherId 688 ;
+  ex:summary "Clear" ;
+  ex:temperature 17.669599448318877 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 3.34919489035977 .
+
+  ex:W689 a ex:Weather ;
+  ex:weatherId 689 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.07826660520749 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.437761650645409 .
+
+  ex:W690 a ex:Weather ;
+  ex:weatherId 690 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 15.140584076272383 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 9.025332281462289 .
+
+  ex:W691 a ex:Weather ;
+  ex:weatherId 691 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 27.204502989552825 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.35246756608972 .
+
+  ex:W692 a ex:Weather ;
+  ex:weatherId 692 ;
+  ex:summary "Clear" ;
+  ex:temperature 24.441208683939966 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.470931562627817 .
+
+  ex:W693 a ex:Weather ;
+  ex:weatherId 693 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 20.643741493864002 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.215970593818207 .
+
+  ex:W694 a ex:Weather ;
+  ex:weatherId 694 ;
+  ex:summary "Clear" ;
+  ex:temperature 30.742532052032082 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 16.913070445546847 .
+
+  ex:W695 a ex:Weather ;
+  ex:weatherId 695 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.577737577220773 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.528299250413879 .
+
+  ex:W696 a ex:Weather ;
+  ex:weatherId 696 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.12763608806896 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.24152285153194 .
+
+  ex:W697 a ex:Weather ;
+  ex:weatherId 697 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.25306406910709 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.259586996418149 .
+
+  ex:W698 a ex:Weather ;
+  ex:weatherId 698 ;
+  ex:summary "Clear" ;
+  ex:temperature 21.918408950033886 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.056973117644127 .
+
+  ex:W699 a ex:Weather ;
+  ex:weatherId 699 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 16.72849221525093 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 14.111254232993822 .
+
+  ex:W700 a ex:Weather ;
+  ex:weatherId 700 ;
+  ex:summary "Clear" ;
+  ex:temperature 28.275793723511782 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.4600718579925465 .
+
+  ex:W701 a ex:Weather ;
+  ex:weatherId 701 ;
+  ex:summary "Clear" ;
+  ex:temperature 33.73644924066184 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 4.689989553481874 .
+
+  ex:W702 a ex:Weather ;
+  ex:weatherId 702 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.48850892943456 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.160579149831585 .
+
+  ex:W703 a ex:Weather ;
+  ex:weatherId 703 ;
+  ex:summary "Cloudy" ;
+  ex:temperature 17.89930144759634 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.6232844892742904 .
+
+  ex:W704 a ex:Weather ;
+  ex:weatherId 704 ;
+  ex:summary "Clear" ;
+  ex:temperature 26.306605091432196 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 13.73027886086505 .
+
+  ex:W705 a ex:Weather ;
+  ex:weatherId 705 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.170545453929332 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.463670025175166 .
+
+  ex:W706 a ex:Weather ;
+  ex:weatherId 706 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.024936574698692 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 10.69933346818888 .
+
+  ex:W707 a ex:Weather ;
+  ex:weatherId 707 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.776804901751287 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 6.414490489199151 .
+
+  ex:W708 a ex:Weather ;
+  ex:weatherId 708 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.467818227487328 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 15.650002887605872 .
+
+  ex:W709 a ex:Weather ;
+  ex:weatherId 709 ;
+  ex:summary "Clear" ;
+  ex:temperature 25.850916067908457 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.25844787021978 .
+
+  ex:W710 a ex:Weather ;
+  ex:weatherId 710 ;
+  ex:summary "Clear" ;
+  ex:temperature 27.258003217238986 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 17.17522859677408 .
+
+  ex:W711 a ex:Weather ;
+  ex:weatherId 711 ;
+  ex:summary "Clear" ;
+  ex:temperature 18.315490803265515 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.4375900356276725 .
+
+  ex:W712 a ex:Weather ;
+  ex:weatherId 712 ;
+  ex:summary "Clear" ;
+  ex:temperature 19.321809063706148 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 1.3729733229574448 .
+
+  ex:W713 a ex:Weather ;
+  ex:weatherId 713 ;
+  ex:summary "Clear" ;
+  ex:temperature 23.23531083169017 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 2.7404182007264133 .
+
+  ex:W714 a ex:Weather ;
+  ex:weatherId 714 ;
+  ex:summary "Clear" ;
+  ex:temperature 16.24546211763771 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 8.563103460602397 .
+
+  ex:W715 a ex:Weather ;
+  ex:weatherId 715 ;
+  ex:summary "Clear" ;
+  ex:temperature 22.119467475897054 ;
+  ex:humidity 1.0 ;
+  ex:windSpeed 7.265455927977991 .

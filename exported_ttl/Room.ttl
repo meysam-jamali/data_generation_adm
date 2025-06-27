@@ -1,0 +1,45 @@
+
+  ex:R1 a ex:Room ;
+  ex:roomId 1 ;
+  ex:name "Kitchen" ;
+  ex:floor 1 .
+
+  ex:R2 a ex:Room ;
+  ex:roomId 2 ;
+  ex:name "Living Room" ;
+  ex:floor 1 .
+
+  ex:R3 a ex:Room ;
+  ex:roomId 3 ;
+  ex:name "Home Office" ;
+  ex:floor 1 .
+
+  ex:R4 a ex:Room ;
+  ex:roomId 4 ;
+  ex:name "Garage" ;
+  ex:floor 1 .
+
+  ex:R5 a ex:Room ;
+  ex:roomId 5 ;
+  ex:name "Basement" ;
+  ex:floor 0 .
+
+  ex:R6 a ex:Room ;
+  ex:roomId 6 ;
+  ex:name "Wine Cellar" ;
+  ex:floor 0 .
+
+  ex:R7 a ex:Room ;
+  ex:roomId 7 ;
+  ex:name "Utility" ;
+  ex:floor 0 .
+
+  ex:R8 a ex:Room ;
+  ex:roomId 8 ;
+  ex:name "Barn" ;
+  ex:floor 1 .
+
+  ex:R9 a ex:Room ;
+  ex:roomId 9 ;
+  ex:name "Roof" ;
+  ex:floor 2 .
