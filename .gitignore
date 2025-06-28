@@ -1,0 +1,3 @@
+# Ignore generated data
+/exported_csv/
+/exported_ttl/

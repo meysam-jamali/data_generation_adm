@@ -162,8 +162,8 @@ class SmartHomeDBNormalizer:
                 humidity REAL,
                 pressure REAL,
                 summary TEXT,
-                wind_speed REAL,
-                cloud_cover REAL,
+                wind REAL,
+                cloud REAL,
                 precip_intensity REAL,
                 precip_probability REAL,
                 apparent_temperature REAL,
@@ -246,147 +246,250 @@ class SmartHomeDBNormalizer:
     def _create_sample_data(self):
         """Create sample data with realistic device behavior"""
         print("📝 Creating sample data with realistic device behavior...")
-        
+
         # Time setup
-        end_time = datetime.now()
-        start_time = end_time - timedelta(days=30)
+        # Generate timestamps from 2010 to May 2025, hourly intervals
+        start_time = datetime(2010, 1, 1)
+        end_time = datetime(2025, 5, 31, 23, 59, 59)  # End of May 2025
         timestamps = pd.date_range(start_time, end_time, freq='H')
         n_records = len(timestamps)
 
+        print(f"📅 Time range: {start_time} to {end_time}")
+        print(f"📊 Total records: {n_records:,} hours")
+        print(f"📊 Total days: {(end_time - start_time).days + 1} days")
+        print(f"📊 Total years: {end_time.year - start_time.year + 1} years")
+
         np.random.seed(42)  # For reproducibility
 
-        # Weather simulation with logical constraints
+        # Weather simulation with Italian climate characteristics
         temperature = []
         summaries = []
-        solar_generation = []
 
         for ts in timestamps:
             hour = ts.hour
             month = ts.month
 
-            # Seasonal temperature distribution
+            # General European-style temperature by season
             if month in [12, 1, 2]:  # Winter
-                temp = np.random.uniform(-15, 5)
+                temp = np.random.uniform(-10, 10)  # Balanced between negative and positive
             elif month in [6, 7, 8]:  # Summer
-                temp = np.random.uniform(15, 35)
-            else:  # Spring/Fall
-                temp = np.random.uniform(0, 20)
+                temp = np.random.uniform(15, 37)
+            elif month in [3, 4, 5]:  # Spring
+                temp = np.random.uniform(5, 22)
+            else:  # Fall (9, 10, 11)
+                temp = np.random.uniform(2, 20)
             temperature.append(temp)
 
-            # Determine weather summary based on temperature and randomness
-            if temp > 20 and np.random.rand() > 0.3:
-                summaries.append('Clear')
-                solar_generation.append(np.random.uniform(2, 5))
-            elif temp > 10:
-                summaries.append(np.random.choice(['Cloudy', 'Clear']))
-                solar_generation.append(np.random.uniform(0.5, 3))
-            elif temp <= 2:  # Allow snow up to 2°C if humid
-                if np.random.rand() < 0.7 and np.random.uniform(0.3, 0.9) > 0.8:
-                    summaries.append('Snowy')
-                else:
-                    summaries.append('Cloudy')
-                solar_generation.append(np.random.uniform(0, 1))
+            # Determine weather summary based on temperature
+            if temp <= 0:
+                summary = 'Snowy'
+            elif month in [12, 1, 2] and temp < 5:
+                summary = np.random.choice(
+                    ['Snowy', 'Cloudy', 'Rainy', 'Clear'],
+                    p=[0.4, 0.3, 0.2, 0.1]
+                )
+            elif temp > 25:
+                summary = 'Clear'
+            elif temp > 15:
+                summary = np.random.choice(['Clear', 'Cloudy', 'Rainy'], p=[0.5, 0.3, 0.2])
+            elif temp > 5:
+                summary = np.random.choice(['Cloudy', 'Rainy'], p=[0.6, 0.4])
             else:
-                summaries.append(np.random.choice(['Rainy', 'Cloudy']))
-                solar_generation.append(np.random.uniform(0, 0.5))
+                summary = np.random.choice(['Rainy', 'Cloudy'], p=[0.5, 0.5])
+            summaries.append(summary)
 
-        # Additional correlated weather parameters
+        # DEBUG: Print stats
+        print("--------------------------------------------")
+        print(f"🌡️ Total winter records: {sum(1 for i, m in enumerate(timestamps) if m.month in [12, 1, 2])}")
+        print(f"🌡️ Winter temps < 0°C: {sum(1 for t in temperature if t < 0)}")
+        print(f"❄️ Snowy days: {summaries.count('Snowy')}")
+        print(f"🌡️ Min temperature: {min(temperature):.1f}°C")
+        print(f"☀️ Max temperature: {max(temperature):.1f}°C")
+        print("--------------------------------------------")
+
+        # Generate solar generation based on weather and time
+        solar_generation = []
+        for i, ts in enumerate(timestamps):
+            hour = ts.hour
+            summary = summaries[i]
+            
+            if 6 <= hour <= 18:  # Daylight hours
+                if summary == 'Clear':
+                    solar = np.random.uniform(2, 8)
+                elif summary == 'Cloudy':
+                    solar = np.random.uniform(0.5, 3)
+                else:  # Rainy/Snowy
+                    solar = np.random.uniform(0, 1)
+            else:
+                solar = 0
+            solar_generation.append(solar)
+
+        # Additional weather parameters with Italian characteristics
         humidity = []
         precip_intensity = []
         precip_probability = []
         wind_speed = []
         cloud_cover = []
+        apparent_temperature = []
+        dew_point = []
+        visibility = []
 
         for i in range(n_records):
-            weather_summary = summaries[i]
+            summary = summaries[i]
             temp = temperature[i]
+            month = timestamps[i].month
 
-            # Humidity logic
-            if weather_summary in ['Snowy', 'Rainy']:
-                h = np.random.uniform(0.7, 0.95)
-                p_int = np.random.uniform(2, 10)
-                p_prob = np.random.uniform(0.5, 1.0)
-            elif weather_summary == 'Cloudy':
-                h = np.random.uniform(0.5, 0.8)
-                p_int = np.random.uniform(0.1, 1)
+            # Seasonal and weather-dependent humidity generator
+            if month in [12, 1, 2]:  # Winter
+                if summary in ['Snowy', 'Rainy']:
+                    base_humidity = np.random.uniform(0.75, 0.85)  # Higher minimum for precipitation
+                else:
+                    base_humidity = np.random.uniform(0.4, 0.7)  # Moderate otherwise
+
+            elif month in [6, 7, 8]:  # Summer
+                if summary == 'Clear':
+                    base_humidity = np.random.uniform(0.3, 0.6)   # Dry sunny days
+                elif summary == 'Cloudy':
+                    base_humidity = np.random.uniform(0.5, 0.7)   # Medium
+                else:  # Rainy
+                    base_humidity = np.random.uniform(0.75, 0.85)  # Higher minimum for summer storms
+
+            elif month in [3, 4, 5]:  # Spring
+                if summary == 'Clear':
+                    base_humidity = np.random.uniform(0.4, 0.6)
+                elif summary == 'Cloudy':
+                    base_humidity = np.random.uniform(0.5, 0.75)
+                else:  # Rainy
+                    base_humidity = np.random.uniform(0.75, 0.85)  # Higher minimum for spring rain
+
+            else:  # Fall
+                if summary == 'Clear':
+                    base_humidity = np.random.uniform(0.35, 0.6)
+                elif summary == 'Cloudy':
+                    base_humidity = np.random.uniform(0.5, 0.7)
+                else:  # Rainy
+                    base_humidity = np.random.uniform(0.75, 0.85)  # Higher minimum for fall rain
+
+            # Option 1: Add smaller variation with bounds checking
+            variation = np.random.normal(0, 0.02)  # Smaller variation
+            h = np.clip(base_humidity + variation, 0.0, 1.0)  # Ensure bounds [0, 1]
+
+            # print(h) # Correct
+
+            # Precipitation based on weather
+            if summary in ['Snowy', 'Rainy']:
+                p_int = np.random.uniform(1, 8)
+                p_prob = np.random.uniform(0.6, 0.9)
+            elif summary == 'Cloudy':
+                p_int = np.random.uniform(0, 2)
                 p_prob = np.random.uniform(0.1, 0.4)
-            else:
-                h = np.random.uniform(0.3, 0.6)
+            else:  # Clear
                 p_int = 0
-                p_prob = 0
+                p_prob = np.random.uniform(0, 0.1)
+
+            # Italian wind patterns (generally light to moderate)
+            if summary == 'Rainy':
+                wind = np.random.uniform(8, 20)  # Windier during storms
+            elif summary == 'Clear':
+                wind = np.random.uniform(2, 8)   # Light winds on clear days
+            else:  # Cloudy
+                wind = np.random.uniform(4, 12)  # Moderate winds
+
+            # Cloud cover based on weather summary
+            if summary == 'Clear':
+                clouds = np.random.uniform(0.05, 0.25)
+            elif summary == 'Cloudy':
+                clouds = np.random.uniform(0.6, 0.9)
+            else:  # Rainy/Snowy
+                clouds = np.random.uniform(0.8, 0.98)
 
             humidity.append(h)
             precip_intensity.append(p_int)
             precip_probability.append(p_prob)
-            wind_speed.append(np.random.uniform(0, 20))
-            cloud_cover.append(np.random.uniform(0, 1))
+            wind_speed.append(wind)
+            cloud_cover.append(clouds)
 
-        # Realistic power usage per device
+            summary = summaries[i]
+            temp = temperature[i]
+            h = humidity[i]
+            w = wind_speed[i]
+
+            # Generate logically consistent weather-dependent values
+            if temp <= 0 and w > 5:
+                apparent_temp = 13.12 + 0.6215 * temp - 11.37 * (w ** 0.16) + 0.3965 * temp * (w ** 0.16)
+            else:
+                apparent_temp = temp
+
+            dew = temp - np.random.uniform(0, 2) if summary in ['Snowy', 'Rainy'] else temp - np.random.uniform(2, 5)
+            dew = min(dew, temp)
+
+            if summary in ['Snowy', 'Rainy']:
+                vis = np.random.uniform(1, 5)
+            elif summary == 'Cloudy':
+                vis = np.random.uniform(5, 10)
+            else:
+                vis = np.random.uniform(10, 15)
+
+            apparent_temperature.append(apparent_temp)
+            dew_point.append(dew)
+            visibility.append(vis)    
+
+        # Device usage
         data = {
             'time': [int(ts.timestamp()) for ts in timestamps],
-            'House overall [kW]': np.zeros(n_records),  # Will compute later
-
-            # Energy consumers
-            'Dishwasher [kW]': self._generate_device_usage(
-                base_power=(1.2, 2.0), off_prob=0.8, n=n_records, hourly_pattern=[(18, 22, 0.3)]),
-            'Furnace 1 [kW]': self._generate_weather_dependent_device(
-                base_power=(1.5, 3.0), low_temp_prob=0.8, mid_temp_prob=0.4, high_temp_prob=0.1, temps=temperature),
-            'Furnace 2 [kW]': self._generate_weather_dependent_device(
-                base_power=(1.0, 2.5), low_temp_prob=0.8, mid_temp_prob=0.4, high_temp_prob=0.1, temps=temperature),
-            'Home office [kW]': self._generate_intermittent_usage(base_power=(0.1, 0.3), off_night_prob=0.8, n=n_records, ts_list=timestamps),
-            'Fridge [kW]': np.random.uniform(0.1, 0.2, n_records),
-            'Wine cellar [kW]': self._generate_warm_weather_usage(base_power=(0.3, 0.5), threshold=20, temps=temperature),
-            'Garage door [kW]': np.random.choice([0, 0.5], size=n_records, p=[0.99, 0.01]),
-            'Kitchen 12 [kW]': np.random.uniform(0.2, 0.6, n_records),
-            'Kitchen 14 [kW]': np.random.uniform(0.3, 1.0, n_records),
-            'Kitchen 38 [kW]': self._generate_device_usage(
-                base_power=(2.0, 5.0), off_prob=0.8, n=n_records, hourly_pattern=[(17, 21, 0.3)]),  # Oven
-            'Barn [kW]': np.random.uniform(0.1, 0.5, n_records),
-            'Well [kW]': np.random.choice([0, 1.2], size=n_records, p=[0.8, 0.2]),
-            'Microwave [kW]': self._generate_device_usage(
-                base_power=(0.8, 1.5), off_prob=0.9, n=n_records, hourly_pattern=[(18, 22, 0.2)]),
-            'Living room [kW]': self._generate_intermittent_usage(base_power=(0.1, 0.4), off_night_prob=0.8, n=n_records, ts_list=timestamps),
-            'Fan [kW]': self._generate_intermittent_usage(base_power=(0.02, 0.1), off_night_prob=0.7, n=n_records, ts_list=timestamps),
-
-            # Solar
-            'Solar [kW]': [-g if g > 0 else 0 for g in solar_generation],  # Negative means generation
-
-            # Weather
             'temperature': temperature,
             'humidity': humidity,
             'pressure': np.random.uniform(980, 1030, n_records),
             'summary': summaries,
-            'windSpeed': wind_speed,
-            'cloudCover': cloud_cover,
+            'wind': wind_speed,
+            'cloud': cloud_cover,
             'precipIntensity': precip_intensity,
             'precipProbability': precip_probability,
-            'apparentTemperature': np.random.uniform(-15, 45, n_records),
-            'dewPoint': np.random.uniform(-20, 25, n_records),
+            'apparentTemperature': apparent_temperature,
+            'dewPoint': dew_point,
+            'visibility': visibility,
             'windBearing': np.random.randint(0, 360, n_records),
-            'visibility': np.random.uniform(5, 15, n_records)
-        }
+            'Dishwasher [kW]': self._generate_device_usage(
+                base_power=(1.2, 2.0), off_prob=0.8, n=n_records, hourly_pattern=[(18, 22, 0.3)], timestamps=timestamps),
+            'Furnace 1 [kW]': self._generate_weather_dependent_device(
+                base_power=(1.5, 3.0), low_temp_prob=0.8, mid_temp_prob=0.4, high_temp_prob=0.1, temps=temperature),
+            'Furnace 2 [kW]': self._generate_weather_dependent_device(
+                base_power=(1.0, 2.5), low_temp_prob=0.8, mid_temp_prob=0.4, high_temp_prob=0.1, temps=temperature),
+            'Home office [kW]': self._generate_intermittent_usage(
+                base_power=(0.1, 0.3), off_night_prob=0.8, n=n_records, ts_list=timestamps),
+            'Fridge [kW]': np.random.uniform(0.1, 0.2, n_records),
+            'Wine cellar [kW]': self._generate_warm_weather_usage(
+                base_power=(0.3, 0.5), threshold=20, temps=temperature),
+            'Garage door [kW]': np.random.choice([0, 0.5], size=n_records, p=[0.99, 0.01]),
+            'Kitchen 12 [kW]': np.random.uniform(0.2, 0.6, n_records),
+            'Kitchen 14 [kW]': np.random.uniform(0.3, 1.0, n_records),
+            'Kitchen 38 [kW]': self._generate_device_usage(
+                base_power=(2.0, 5.0), off_prob=0.8, n=n_records, hourly_pattern=[(17, 21, 0.3)], timestamps=timestamps),
+            'Barn [kW]': np.random.uniform(0.1, 0.5, n_records),
+            'Well [kW]': np.random.choice([0, 1.2], size=n_records, p=[0.8, 0.2]),
+            'Microwave [kW]': self._generate_device_usage(
+                base_power=(0.8, 1.5), off_prob=0.9, n=n_records, hourly_pattern=[(18, 22, 0.2)], timestamps=timestamps),
+            'Living room [kW]': self._generate_intermittent_usage(
+                base_power=(0.1, 0.4), off_night_prob=0.8, n=n_records, ts_list=timestamps),
+            'Fan [kW]': self._generate_intermittent_usage(
+                base_power=(0.02, 0.1), off_night_prob=0.7, n=n_records, ts_list=timestamps),
 
-        # Calculate house overall usage as sum of all device usages
-        device_columns = [
-            'Dishwasher [kW]', 'Furnace 1 [kW]', 'Furnace 2 [kW]',
-            'Home office [kW]', 'Fridge [kW]', 'Wine cellar [kW]',
-            'Garage door [kW]', 'Kitchen 12 [kW]', 'Kitchen 14 [kW]',
-            'Kitchen 38 [kW]', 'Barn [kW]', 'Well [kW]', 'Microwave [kW]',
-            'Living room [kW]', 'Fan [kW]'
-        ]
-        data['House overall [kW]'] = pd.DataFrame(data)[device_columns].sum(axis=1)
+            'Solar [kW]': [-g if g > 0 else 0 for g in solar_generation],
+        }
 
         df = pd.DataFrame(data)
 
-        # Now inject defects
-        self._inject_overcapacity(df, 'Kitchen 38 [kW]', max_power=5.0)
-        self._inject_wrong_season_usage(df, 'Furnace 1 [kW]', df['temperature'], threshold=20)
-        self._inject_solar_failure(df, 'Solar [kW]', df['summary'])
-        self._inject_sensor_drift(df, 'humidity', drift_rate=0.005)
-        self._inject_intermittent_outage(df, 'Fan [kW]', outage_prob=0.02)
-        self._inject_missing_timestamps(timestamps, df)
+        # Inject defects
+        # self._inject_overcapacity(df, 'Kitchen 38 [kW]', max_power=5.0)
+        # self._inject_wrong_season_usage(df, 'Furnace 1 [kW]', df['temperature'], threshold=20)
+        # self._inject_solar_failure(df, 'Solar [kW]', df['summary'])
+        # self._inject_sensor_drift(df, 'humidity', drift_rate=0.005)
+        # self._inject_intermittent_outage(df, 'Fan [kW]', outage_prob=0.02)
 
-        # Recalculate house overall usage after defects
+        # Drop missing timestamps and reset index
+        df = self._inject_missing_timestamps(timestamps, df, missing_prob=0.002)
+
+        # Final house power usage calculation
         device_columns = [
             'Dishwasher [kW]', 'Furnace 1 [kW]', 'Furnace 2 [kW]',
             'Home office [kW]', 'Fridge [kW]', 'Wine cellar [kW]',
@@ -396,13 +499,21 @@ class SmartHomeDBNormalizer:
         ]
         df['House overall [kW]'] = df[device_columns].sum(axis=1)
 
+        # Safety check
+        lengths = [len(df[col]) for col in df.columns]
+        assert len(set(lengths)) == 1, f"Inconsistent data lengths: {set(lengths)}"
+
         print(f"✅ Sample data created with defects! Shape: {df.shape}")
         return df
 
-
     # Helper methods
     def _generate_device_usage(self, base_power, off_prob, n, hourly_pattern=None, timestamps=None):
-        usage = np.random.choice([0, np.random.uniform(*base_power)], size=n, p=[off_prob, 1-off_prob])
+        usage = []
+        for _ in range(n):
+            if np.random.rand() < off_prob:
+                usage.append(0)
+            else:
+                usage.append(np.random.uniform(*base_power))
         if hourly_pattern and timestamps is not None:
             for start_hour, end_hour, on_prob in hourly_pattern:
                 for i, ts in enumerate(timestamps):
@@ -472,7 +583,7 @@ class SmartHomeDBNormalizer:
         """Simulate gradual sensor drift upward"""
         drift = np.linspace(0, drift_rate * len(df), len(df))
         df[column] += drift
-        df[column] = np.clip(df[column], 0, 1)  # Keep within bounds if needed
+        df[column] = np.clip(df[column], 0, 0.98)
         print(f"💧 Injected sensor drift in '{column}'")
 
     def _inject_intermittent_outage(self, df, column, outage_prob=0.02):
@@ -481,29 +592,30 @@ class SmartHomeDBNormalizer:
         df.loc[outage_mask, column] = 0
         print(f"⚡ Injected intermittent outages in '{column}'")
 
-    def _inject_missing_timestamps(self, timestamps, df, missing_prob=0.01):
+    def _inject_missing_timestamps(self, timestamps, df, missing_prob=0.003):
         """Simulate missing rows due to logging errors"""
         missing_mask = np.random.rand(len(df)) < missing_prob
         df.drop(df[missing_mask].index, inplace=True)
+        df.reset_index(drop=True, inplace=True)
         print(f"🕒 Injected missing timestamps")
-
-
+        return df
+    
+    # Error
     def populate_weather_and_timepoint(self, df):
-        """Populate Weather and TimePoint tables"""
+        """Populate Weather and TimePoint tables in sync"""
         cursor = self.conn.cursor()
         
-        weather_data = []
         timepoint_data = []
         
         for _, row in df.iterrows():
-            # Insert weather data
+            # Step 1: Insert Weather record
             weather_record = (
                 row.get('temperature', 20),
                 row.get('humidity', 0.5),
                 row.get('pressure', 1013),
                 row.get('summary', 'Clear'),
-                row.get('windSpeed', 5),
-                row.get('cloudCover', 0.5),
+                row.get('wind', 5),
+                row.get('cloud', 0.5),
                 row.get('precipIntensity', 0),
                 row.get('precipProbability', 0),
                 row.get('apparentTemperature', 20),
@@ -511,35 +623,33 @@ class SmartHomeDBNormalizer:
                 row.get('windBearing', 180),
                 row.get('visibility', 10)
             )
-            weather_data.append(weather_record)
-        
-        # Bulk insert weather data
-        cursor.executemany('''
-            INSERT INTO Weather (temperature, humidity, pressure, summary, wind_speed, 
-                               cloud_cover, precip_intensity, precip_probability, 
-                               apparent_temperature, dew_point, wind_bearing, visibility)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        ''', weather_data)
-        
-        # Get weather IDs
-        cursor.execute('SELECT weather_id FROM Weather ORDER BY weather_id')
-        weather_ids = [row[0] for row in cursor.fetchall()]
-        
-        # Insert timepoint data
-        for i, (_, row) in enumerate(df.iterrows()):
+            
+            cursor.execute('''
+                INSERT INTO Weather (
+                    temperature, humidity, pressure, summary,
+                    wind, cloud, precip_intensity,
+                    precip_probability, apparent_temperature,
+                    dew_point, wind_bearing, visibility
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', weather_record)
+            weather_id = cursor.lastrowid  # Get ID of inserted Weather record
+
+            # Step 2: Insert corresponding TimePoint with correct weather_id
             timepoint_record = (
                 int(row.get('time', datetime.now().timestamp())),
                 row.get('House overall [kW]', 0),
                 row.get('Solar [kW]', 0),
-                weather_ids[i]
+                weather_id  # This ensures alignment
             )
             timepoint_data.append(timepoint_record)
-        
+
+        # Insert all timepoints at once
         cursor.executemany('''
-            INSERT INTO TimePoint (timestamp, house_overall_usage, solar_generation, weather_id)
-            VALUES (?, ?, ?, ?)
+            INSERT INTO TimePoint (
+                timestamp, house_overall_usage, solar_generation, weather_id
+            ) VALUES (?, ?, ?, ?)
         ''', timepoint_data)
-        
+
         self.conn.commit()
         print("✅ Weather and TimePoint tables populated successfully!")
     
@@ -598,7 +708,9 @@ class SmartHomeDBNormalizer:
             df = self.load_and_process_data(file_path)
         else:
             df = self._create_sample_data()
-        
+
+        print(df) # Correct
+    
         # Step 4: Populate dynamic tables
         self.populate_weather_and_timepoint(df)
         self.populate_device_data(df)
@@ -620,118 +732,31 @@ class SmartHomeDBNormalizer:
             count = cursor.fetchone()[0]
             print(f"{table:12}: {count:6,} records")
     
-    def run_sample_queries(self):
-        """Run sample queries to demonstrate the normalized database"""
-        cursor = self.conn.cursor()
-        
-        print("\n🔍 Sample Query Results:")
-        print("=" * 50)
-        
-        # Query 1: Total solar generation vs consumption (last 7 days)
-        print("\n1. Solar Generation vs Consumption (Last 7 Days):")
-        one_week_ago = int((datetime.now() - timedelta(days=7)).timestamp())
-        
-        cursor.execute('''
-            SELECT 
-                SUM(solar_generation) as total_solar,
-                SUM(house_overall_usage) as total_consumption,
-                COUNT(*) as data_points
-            FROM TimePoint 
-            WHERE timestamp > ?
-        ''', (one_week_ago,))
-        
-        result = cursor.fetchone()
-        if result:
-            solar, consumption, points = result
-            print(f"   Solar Generated: {solar:.2f} kW")
-            print(f"   House Consumed:  {consumption:.2f} kW")
-            print(f"   Data Points:     {points}")
-            if solar > 0:
-                print(f"   Solar Efficiency: {(solar/consumption)*100:.1f}%")
-        
-        # Query 2: Top 5 energy consuming devices
-        print("\n2. Top 5 Energy Consuming Devices:")
-        cursor.execute('''
-            SELECT 
-                d.name,
-                r.name as room,
-                AVG(dd.power_usage) as avg_power,
-                MAX(dd.power_usage) as max_power,
-                COUNT(dd.data_id) as measurements
-            FROM Device d
-            JOIN DeviceData dd ON d.device_id = dd.device_id
-            JOIN Room r ON d.room_id = r.room_id
-            WHERE dd.power_usage > 0
-            GROUP BY d.device_id
-            ORDER BY avg_power DESC
-            LIMIT 5
-        ''')
-        
-        for i, (name, room, avg_power, max_power, measurements) in enumerate(cursor.fetchall(), 1):
-            print(f"   {i}. {name} ({room})")
-            print(f"      Avg: {avg_power:.3f} kW, Max: {max_power:.3f} kW, Readings: {measurements}")
-        
-        # Query 3: Weather impact on energy consumption
-        print("\n3. Energy Consumption by Weather Condition:")
-        cursor.execute('''
-            SELECT 
-                w.summary,
-                AVG(tp.house_overall_usage) as avg_consumption,
-                AVG(w.temperature) as avg_temp,
-                COUNT(*) as occurrences
-            FROM TimePoint tp
-            JOIN Weather w ON tp.weather_id = w.weather_id
-            GROUP BY w.summary
-            ORDER BY avg_consumption DESC
-        ''')
-        
-        for condition, avg_consumption, avg_temp, count in cursor.fetchall():
-            print(f"   {condition:10}: {avg_consumption:.2f} kW (avg temp: {avg_temp:.1f}°C, {count} times)")
-        
-        # Query 4: Devices by room
-        print("\n4. Device Distribution by Room:")
-        cursor.execute('''
-            SELECT 
-                r.name as room,
-                r.floor,
-                COUNT(d.device_id) as device_count,
-                GROUP_CONCAT(d.name, ', ') as devices
-            FROM Room r
-            LEFT JOIN Device d ON r.room_id = d.room_id
-            GROUP BY r.room_id
-            ORDER BY r.floor, r.name
-        ''')
-        
-        for room, floor, count, devices in cursor.fetchall():
-            print(f"   Floor {floor} - {room}: {count} devices")
-            if devices and len(devices) < 100:  # Avoid very long device lists
-                print(f"      ({devices})")
-    
     def export_tables_to_csv(self, output_dir='exported_csv'):
         """Export all tables to CSV files"""
         import os
         cursor = self.conn.cursor()
-        
+
         # Create directory if it doesn't exist
         os.makedirs(output_dir, exist_ok=True)
-        
+
         # Get list of tables
         cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
         tables = [row[0] for row in cursor.fetchall()]
-        
+
         for table_name in tables:
             cursor.execute(f"SELECT * FROM {table_name}")
             rows = cursor.fetchall()
-            
+
             # Get column names
             column_names = [description[0] for description in cursor.description]
-            
+
             # Write to CSV
             file_path = os.path.join(output_dir, f"{table_name}.csv")
             with open(file_path, 'w', newline='', encoding='utf-8') as f:
                 writer = csv.writer(f)
                 writer.writerow(column_names)  # Write header
-                writer.writerows(rows)         # Write data
+                writer.writerows(rows)        # Write data
             print(f"✅ Exported table '{table_name}' to {file_path}")
     
     def close(self):
@@ -745,14 +770,11 @@ def main():
     print("=" * 50)
     
     # Initialize the normalizer
-    normalizer = SmartHomeDBNormalizer('smarthome_normalized.db')
+    normalizer = SmartHomeDBNormalizer('exported_csv/smarthome_normalized.db')
     
     try:
         # Normalize the database (using sample data)
         normalizer.normalize_database()
-        
-        # Run sample queries
-        normalizer.run_sample_queries()
 
         # Export to CSV
         normalizer.export_tables_to_csv()
@@ -769,55 +791,5 @@ def main():
     finally:
         normalizer.close()
 
-# Additional utility functions for specific queries mentioned in your requirements
-
-def execute_specific_queries(db_path='smarthome_normalized.db'):
-    """Execute the specific queries mentioned in your requirements"""
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
-    
-    print("\n🎯 Executing Specific Queries from Requirements:")
-    print("=" * 60)
-    
-    # Query 2: Retrieve the power usage of Dishwasher at specific time
-    print("\nQuery 2: Dishwasher power usage at specific time ID:")
-    cursor.execute('''
-        SELECT dd.power_usage, tp.timestamp, d.name
-        FROM DeviceData dd
-        JOIN Device d ON dd.device_id = d.device_id
-        JOIN TimePoint tp ON dd.time_id = tp.time_id
-        WHERE d.name LIKE '%Dishwasher%' AND dd.time_id <= 100
-        ORDER BY dd.time_id DESC
-        LIMIT 5
-    ''')
-    
-    results = cursor.fetchall()
-    if results:
-        for power, timestamp, device_name in results:
-            dt = datetime.fromtimestamp(timestamp)
-            print(f"   {device_name}: {power:.4f} kW at {dt.strftime('%Y-%m-%d %H:%M:%S')}")
-    
-    # Query 6: High power usage devices in cold weather
-    print("\nQuery 6: High power usage (>0.5 kW) in cold weather (<5°C):")
-    cursor.execute('''
-        SELECT d.name, dd.power_usage, w.temperature, tp.timestamp
-        FROM DeviceData dd
-        JOIN Device d ON dd.device_id = d.device_id
-        JOIN TimePoint tp ON dd.time_id = tp.time_id
-        JOIN Weather w ON tp.weather_id = w.weather_id
-        WHERE dd.power_usage > 0.5 AND w.temperature < 5
-        ORDER BY dd.power_usage DESC
-        LIMIT 10
-    ''')
-    
-    results = cursor.fetchall()
-    if results:
-        for device_name, power, temp, timestamp in results:
-            dt = datetime.fromtimestamp(timestamp)
-            print(f"   {device_name}: {power:.3f} kW at {temp:.1f}°C ({dt.strftime('%m/%d %H:%M')})")
-    
-    conn.close()
-
 if __name__ == "__main__":
     main()
-    execute_specific_queries()
